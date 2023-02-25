@@ -1,3 +1,4 @@
+import Nav from '@/components/Nav';
 import Head from 'next/head';
 
 export default function Home() {
@@ -10,9 +11,16 @@ export default function Home() {
         <link rel="icon" href="/gdsc.png" />
       </Head>
       <main>
-        <h1 className="text-pink-500 text-6xl text-center">
-          Google Developer Students Clubs - FETJU
-        </h1>
+        {/* NavBar */}
+        <Nav />
+        {/* Hero Section */}
+        {/* Info about events / students */}
+        {/* Our Team */}
+        {/* Past Events */}
+        {/* Testimonials */}
+        {/* Collaborations */}
+        {/* Idea discussion */}
+        {/* Footer Section */}
       </main>
     </>
   );
