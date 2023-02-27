@@ -1,7 +1,7 @@
 import Hero from '@/components/Hero';
 import Nav from '@/components/Nav';
 import Head from 'next/head';
-
+import InfoBoxes from '@/components/InfoBoxes'
 export default function Home() {
   return (
     <>
@@ -17,6 +17,7 @@ export default function Home() {
         {/* Hero Section */}
         <Hero />
         {/* Info about events / students */}
+        <InfoBoxes />
         {/* Our Team */}
         {/* Past Events */}
         {/* Testimonials */}
