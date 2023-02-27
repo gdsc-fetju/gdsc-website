@@ -1,7 +1,7 @@
 import Hero from '@/components/Hero';
 import Nav from '@/components/Nav';
 import Head from 'next/head';
-import InfoBoxes from '@/components/InfoBoxes'
+import InfoBoxes from '@/components/InfoBoxes';
 export default function Home() {
   return (
     <>
