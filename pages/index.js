@@ -1,3 +1,4 @@
+import Hero from '@/components/Hero';
 import Nav from '@/components/Nav';
 import Head from 'next/head';
 
@@ -14,6 +15,7 @@ export default function Home() {
         {/* NavBar */}
         <Nav />
         {/* Hero Section */}
+        <Hero />
         {/* Info about events / students */}
         {/* Our Team */}
         {/* Past Events */}
