@@ -2,6 +2,7 @@ import Hero from '@/components/Hero';
 import Nav from '@/components/Nav';
 import Head from 'next/head';
 import InfoBoxes from '@/components/InfoBoxes';
+import Team from '@/components/Team';
 export default function Home() {
   return (
     <>
@@ -19,6 +20,7 @@ export default function Home() {
         {/* Info about events / students */}
         <InfoBoxes />
         {/* Our Team */}
+        <Team />
         {/* Past Events */}
         {/* Testimonials */}
         {/* Collaborations */}
