@@ -2,6 +2,7 @@ import Hero from '@/components/Hero';
 import Nav from '@/components/Nav';
 import Head from 'next/head';
 import InfoBoxes from '@/components/InfoBoxes';
+import Testimonial from '@/components/Testimonial';
 export default function Home() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function Home() {
         {/* Our Team */}
         {/* Past Events */}
         {/* Testimonials */}
+        <Testimonial />
         {/* Collaborations */}
         {/* Idea discussion */}
         {/* Footer Section */}
