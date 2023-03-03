@@ -2,6 +2,7 @@ import Hero from '@/components/Hero';
 import Nav from '@/components/Nav';
 import Head from 'next/head';
 import InfoBoxes from '@/components/InfoBoxes';
+import Testimonial from '@/components/Testimonial';
 import Team from '@/components/Team';
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Team />
         {/* Past Events */}
         {/* Testimonials */}
+        <Testimonial />
         {/* Collaborations */}
         {/* Idea discussion */}
         {/* Footer Section */}
