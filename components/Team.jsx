@@ -18,7 +18,6 @@ function Team() {
 
 function TeamMember({ memberData }) {
   const { name, position, picture } = memberData;
-  console.log(memberData);
 
   return (
     <div className="flex flex-col items-center space-y-3 bg-red-10 h-72 w-56 m-9">

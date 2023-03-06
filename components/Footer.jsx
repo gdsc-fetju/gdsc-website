@@ -37,7 +37,7 @@ function Footer() {
               required
               placeholder="Enter your email address"
             ></input>
-            <label for="email" className="hidden">
+            <label htmlFor="email" className="hidden">
               Enter your email
             </label>
             <button className="text-gray-500 border-lg p-1 shadow-lg">
