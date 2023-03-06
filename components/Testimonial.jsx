@@ -1,22 +1,28 @@
 import Image from 'next/image';
-import React from 'react'
+import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import TestimonialCard from './TestimonialCard';
 
-const Testimonial = () => {
-    const items = [
-        <TestimonialCard key='1' />,
-        <TestimonialCard key='2' />,
-        <TestimonialCard key='3' />,
-        <TestimonialCard key='4' />
-    ];
+function Testimonial() {
+  const items = [
+    <TestimonialCard key="1" />,
+    <TestimonialCard key="2" />,
+    <TestimonialCard key="3" />,
+    <TestimonialCard key="4" />,
+  ];
 
-    return (
-        <div className='p-8'>
-            <h1 className='text-4xl mt-10 text-center text-[#49B165] font-bold tracking-wide'>Testimonials</h1>
-            <AliceCarousel mouseTracking items={items} disableButtonsControls={true} />
-            {/* <div className='flex justify-center'>
+  return (
+    <div className="p-8">
+      <h1 className="text-4xl mt-10 text-center text-[#49B165] font-bold tracking-wide">
+        Testimonials
+      </h1>
+      <AliceCarousel
+        mouseTracking
+        items={items}
+        disableButtonsControls={true}
+      />
+      {/* <div className='flex justify-center'>
                 <div className="left">
                     <Image src='/hello.png' alt='image' width={150} height={150} className='rounded-full' />
                 </div>
@@ -36,8 +42,8 @@ const Testimonial = () => {
                     <p className='italic font-light w-2/3 mt-3 text-[#525665]'>"It is professional, considers everyone's time, can think about the whole problem and <span className='text-[#7AA3F3] font-bold'>not only in a small niche</span>, friendly, , and UX,UI."</p>
                 </div>
             </div> */}
-        </div>
-    )
+    </div>
+  );
 }
 
-export default Testimonial
+export default Testimonial;
