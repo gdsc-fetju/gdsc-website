@@ -4,6 +4,7 @@ import Head from 'next/head';
 import InfoBoxes from '@/components/InfoBoxes';
 import Testimonial from '@/components/Testimonial';
 import Team from '@/components/Team';
+import Footer from '@/components/Footer';
 export default function Home() {
   return (
     <>
@@ -28,6 +29,7 @@ export default function Home() {
         {/* Collaborations */}
         {/* Idea discussion */}
         {/* Footer Section */}
+        <Footer />
       </main>
     </>
   );

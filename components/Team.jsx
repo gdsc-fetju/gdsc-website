@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { teamData } from '@/data/data';
 
 function Team() {
-  console.log(teamData);
   return (
     <section>
       <h1 className="text-center text-4xl">Our Team</h1>
