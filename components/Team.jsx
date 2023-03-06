@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { teamData } from '@/data/data';
 
 function Team() {
-  console.log(teamData);
   return (
     <section>
       <h1 className="text-center text-4xl">Our Team</h1>
@@ -19,7 +18,6 @@ function Team() {
 
 function TeamMember({ memberData }) {
   const { name, position, picture } = memberData;
-  console.log(memberData);
 
   return (
     <div className="flex flex-col items-center space-y-3 bg-red-10 h-72 w-56 m-9">
