@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      roboto: ['Roboto', 'sans-serif'],
+      fraunces: ['Fraunces', 'serif'],
+      mulish: ['Mulish', 'sans-serif']
+    }
   },
   plugins: [],
 };

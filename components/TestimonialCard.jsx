@@ -18,10 +18,10 @@ function TestimonialCard() {
           <div className="left">
             <h1 className="font-semibold mb-2 text-3xl">Nikita Gandhi</h1>
             <div className="flex text-sm">
-              <p className="mr-1 text-[#4E8E70] px-3 py-2 bg-[#C3EAD7] rounded-md">
+              <p className="mr-1 text-[#4E8E70] px-3 py-2 bg-[#C3EAD7] rounded-md font-mulish">
                 Designer
               </p>
-              <p className="text-[#62989C] px-3 py-2 bg-[#C3E7EA] rounded-md">
+              <p className="text-[#62989C] px-3 py-2 bg-[#C3E7EA] rounded-md font-mulish">
                 Developer
               </p>
             </div>
@@ -40,7 +40,7 @@ function TestimonialCard() {
           &quot; It is professional, considers everyone&apos;s time, can think
           about the whole problem and
           <span className="text-[#7AA3F3] font-bold">
-            not only in a small niche
+            &nbsp;not only in a small niche
           </span>
           , friendly, and UX,UI.&quot;
         </p>

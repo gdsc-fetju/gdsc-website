@@ -13,7 +13,7 @@ function Testimonial() {
   ];
 
   return (
-    <div className="p-8">
+    <div className="p-8 font-fraunces">
       <h1 className="text-4xl mt-10 text-center text-[#49B165] font-bold tracking-wide">
         Testimonials
       </h1>
