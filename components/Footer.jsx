@@ -27,34 +27,33 @@ function Footer() {
           </p>
         </div>
         {/* Footer Right */}
-        <div className="w-64 sm:w-1/3">
+        <div className="w-2/3 md:w-2/3 mx-auto md:ml-5 ">
           <h3 className="text-xl uppercase font-semibold">Newsletter</h3>
-          <div className="py-5">
+          <div className="mt-4">
             <input
               type="email"
               id="email"
-              className="outline-none bg-transparent items-center md:inline-flex bg-gray-200 p-2"
+              className="outline-none  items-center md:inline-flex bg-white  p-2 md:p-3 shadow-xl w-11/12 rounded-md md:w-2/3"
               required
-              placeholder="Enter your email address"
+              placeholder="Enter email address"
             ></input>
             <label htmlFor="email" className="hidden">
               Enter your email
             </label>
-            <button className="text-gray-500 border-lg p-1 shadow-lg">
+            <button className="text-gray-500 rounded-md p-2 md:p-3 ml-2  bg-white border-lg shadow-xl mt-3">
               Submit
             </button>
-            <br />
-            <span className="text-sm text-gray-400">We never spam you!</span>
+            <span className="text-sm text-gray-400 mt-2 block">We never spam you!</span>
           </div>
         </div>
       </div>
       {/* Footer Bottom */}
       <div className="flex justify-center md:justify-end items-center space-x-5 p-2 bg-green-200">
-        <FooterImage imageName={'facebook'}></FooterImage>
-        <FooterImage imageName={'instagram'}></FooterImage>
-        <FooterImage imageName={'github'}></FooterImage>
-        <FooterImage imageName={'linkedin'}></FooterImage>
-        <FooterImage imageName={'twitter'}></FooterImage>
+        <FooterImage imageName={'facebook'} />
+        <FooterImage imageName={'instagram'} />
+        <FooterImage imageName={'github'} />
+        <FooterImage imageName={'linkedin'} />
+        <FooterImage imageName={'twitter'} />
       </div>
     </section>
   );
@@ -62,14 +61,14 @@ function Footer() {
 
 function FooterImage({ imageName }) {
   return (
-    <span className="text-gray-500">
+    <span className="">
       <Image
         className="text-gray-500"
         src={`/social/${imageName}.svg`}
-        height={40}
-        width={40}
+        height={25}
+        width={25}
         alt={`${imageName} icon`}
-      ></Image>
+      />
     </span>
   );
 }

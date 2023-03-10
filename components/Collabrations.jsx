@@ -15,7 +15,7 @@ const Collabrations = () => {
         <Image src='/logo.png' alt='gdscfetju' key='3' width={270} height={100} />,
         <Image src='/logo.png' alt='gdscfetju' key='4' width={270} height={100} />,
         <Image src='/logo.png' alt='gdscfetju' key='5' width={270} height={100} />,
-        <Image src='/logo.png' alt='gdscfetju' key='5' width={270} height={100} />,
+        <Image src='/logo.png' alt='gdscfetju' key='6' width={270} height={100} />,
 
     ];
     return (
