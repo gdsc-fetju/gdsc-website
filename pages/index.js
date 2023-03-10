@@ -5,6 +5,7 @@ import InfoBoxes from '@/components/InfoBoxes';
 import Testimonial from '@/components/Testimonial';
 import Team from '@/components/Team';
 import Footer from '@/components/Footer';
+import ProjectSection from '@/components/ProjectSection';
 export default function Home() {
   return (
     <>
@@ -28,6 +29,7 @@ export default function Home() {
         <Testimonial />
         {/* Collaborations */}
         {/* Idea discussion */}
+        <ProjectSection />
         {/* Footer Section */}
         <Footer />
       </main>

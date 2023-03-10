@@ -5,7 +5,7 @@ import NavLinks from './NavLinks';
 function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
-    <header className="flex sticky top-0 z-10 bg-white items-center p-2 lg:px-5">
+    <header className="flex sticky top-0 z-10 bg-white items-center p-5 lg:px-5 shadow-sm">
       {/* Header Left */}
       <div className="">
         <Image
