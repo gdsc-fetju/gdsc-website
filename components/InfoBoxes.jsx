@@ -13,8 +13,8 @@ function Boxes() {
                     <Image src="/spiral.svg" width={107} height={139} alt="line" />
                 </div>
             </div>
-            <div className="Box2  bg-[#F9B7A9] rounded-xl grid grid-cols-2 place-content-center place-items-center px-4 row-span-2">
-                <p className='font-bold italic text-3xl'>Love to chat about anything anytime, design, work collabrations, or life...</p>
+            <div className="Box2  bg-[#F9B7A9] rounded-xl grid grid-cols-2 place-content-center  p-6 place-items-center row-span-2">
+                <p className='font-bold italic text-3xl tracking-wide'>Love to chat about anything anytime, design, work collabrations, or life...</p>
                 <Image src="/Face.svg" width={107} height={139} alt="line" />
                 <p className='text-[#CD4631] font-thin italic underline text-2xl cursor-pointer'>dscfetju@gmail.com</p>
                 <div className='flex'>

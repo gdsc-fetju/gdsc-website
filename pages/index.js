@@ -28,7 +28,7 @@ export default function Home() {
         {/* Past Events */}
         {/* Testimonials */}
         <Testimonial />
-        {/* Collaborations */}
+        Collaborations
         {/* <Collabrations /> */}
         {/* Idea discussion */}
         <ProjectSection />
