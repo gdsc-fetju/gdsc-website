@@ -28,8 +28,8 @@ export default function Home() {
         {/* Past Events */}
         {/* Testimonials */}
         <Testimonial />
-        Collaborations
-        {/* <Collabrations /> */}
+        {/* Collaborations */}
+        <Collabrations />
         {/* Idea discussion */}
         <ProjectSection />
         {/* Footer Section */}
