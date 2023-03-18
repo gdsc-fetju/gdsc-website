@@ -43,7 +43,9 @@ function Footer() {
             <button className="text-gray-500 rounded-md p-2 md:p-3 ml-2  bg-white border-lg shadow-xl mt-3">
               Submit
             </button>
-            <span className="text-sm text-gray-400 mt-2 block">We never spam you!</span>
+            <span className="text-sm text-gray-400 mt-2 block">
+              We never spam you!
+            </span>
           </div>
         </div>
       </div>

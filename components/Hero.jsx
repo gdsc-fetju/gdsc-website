@@ -5,9 +5,9 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 
 function Hero() {
   return (
-    <div className="flex justify-around items-center p-10 ">
+    <div className="flex justify-around items-center p-10">
       <div className="left md:w-1/2 w-full text-justify    grid place-items-start place-content-center">
-        <p className="text-xl font-roboto " >
+        <p className="text-xl font-roboto">
           At Google Developer Student Clubs FET- Jain University we as a
           university based community functioning with an aim to promote
           peer-to-peer learning with an active usage of tools and technologies
