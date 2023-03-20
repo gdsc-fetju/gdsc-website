@@ -5,7 +5,9 @@ import { teamData } from '@/data/data';
 function Team() {
   return (
     <section>
-      <h1 className="text-center text-4xl font-bold text-[#E2425C] font-fraunces">Our Team</h1>
+      <h1 className="text-center text-4xl font-bold text-[#E2425C] font-fraunces">
+        Our Team
+      </h1>
       <div className="sm:mx-24 md:mx-20 lg:mx-28 grid place-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {teamData &&
           teamData.map((member, i) => (
