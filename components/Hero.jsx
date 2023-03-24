@@ -6,8 +6,11 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 function Hero() {
   return (
     <div className="flex justify-around items-center p-10">
-      <div className="left md:w-1/2 w-full text-justify    grid place-items-start place-content-center">
-        <p className="text-xl font-roboto">
+      <div className="left md:w-1/2 w-full text-justify grid place-items-start place-content-center">
+        <div className="flex justify-around items-center p-10">
+          <Image className='sm:hidden' src='/logo.png' width={500} height={500} />
+        </div>
+        <p className="md:font-light tracking-wide">
           At Google Developer Student Clubs FET- Jain University we as a
           university based community functioning with an aim to promote
           peer-to-peer learning with an active usage of tools and technologies
@@ -25,7 +28,7 @@ function Hero() {
       <div className="right w-1/3 md:block hidden">
         <Image src={heroImage} alt={'hero image'} className="w-full h-full" />
       </div>
-    </div>
+    </div >
   );
 }
 
