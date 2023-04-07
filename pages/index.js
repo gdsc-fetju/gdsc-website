@@ -7,6 +7,7 @@ import Team from '@/components/Team';
 import Footer from '@/components/Footer';
 import ProjectSection from '@/components/ProjectSection';
 import Collabrations from '@/components/Collabrations';
+import NewsLetter from '@/components/NewsLetter';
 export default function Home() {
   return (
     <>
@@ -29,9 +30,10 @@ export default function Home() {
         {/* Testimonials */}
         <Testimonial />
         {/* Collaborations */}
-        <Collabrations />
+        {/* <Collabrations /> */}
         {/* Idea discussion */}
         <ProjectSection />
+        <NewsLetter />
         {/* Footer Section */}
         <Footer />
       </main>

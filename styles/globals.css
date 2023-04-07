@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --google-cream-gray-shade: #e6e6dc;
+  --google-blue: #4285f4;
+  --google-red: #e94335;
+  --google-yellow: #fbbc05;
+  --google-green: #34a853;
+  --google-gray-shade-9: #333333;
+  --body-text: #555555;
+  --google-gray-shade-7: #666666;
+  --google-gray-shade-5: #999999;
+  --google-med-lite-green: #7bd0a9;
+  --google-gray-shade-10: #1a1a1a;
+  --google-med-lite-red: #ed9c98;
+  --google-dark-blue: #185abc;
+  --google-dark-red: #b31412;
+  --google-dark-yellow: #ea8600;
+  --google-gray-shade-1: #f2f2f2;
+  --google-med-lite-blue: #9fc2ff;
+  --google-gray-shade-6: #808080;
+  --google-med-lite-yellow: #ffe167;
+  --google-gray-shade-4: #b2b2b2;
+  --google-dark-green: #137333;
+  --google-light-blue: #d2e3fc;
+  --google-light-green: #ceead6;
+  --google-med-blue: #77a7fb;
+  --google-med-red: #e57368;
+  --google-med-yellow: #fbcb43;
+  --google-med-green: #34b67a;
+  --google-gray-shade-2: #e6e6e6;
+  --google-gray-shade-3: #cccccc;
+  --google-gray-shade-8: #4d4d4d;
+  --nav-inactive-color: #707070;
+  --heading-color: #3c4043;
+  --text-color: #5f6368;
+  --button-shadow-color: #b3b3b3;
+  --border-color: #dadce0;
+}

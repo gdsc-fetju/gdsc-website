@@ -5,10 +5,10 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 
 function Hero() {
   return (
-    <div className="flex justify-around items-center p-10">
+    <div className="flex justify-around items-center ">
       <div className="left md:w-1/2 w-full text-justify grid place-items-start place-content-center">
         <div className="flex justify-around items-center p-10">
-          <Image className='sm:hidden' src='/logo.png' width={500} height={500} />
+          <Image className='sm:hidden' src='/logo.png' width={500} height={500} alt='heroImage' />
         </div>
         <p className="md:font-light tracking-wide">
           At Google Developer Student Clubs FET- Jain University we as a

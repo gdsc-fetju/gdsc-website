@@ -1,0 +1,41 @@
+.TeamList {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  font-family: "Google Sans", sans-serif;
+}
+
+.listContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teamListHeader {
+  font-weight: 400;
+  padding: 2rem 2rem;
+  transition: 0.2s;
+}
+
+.section {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 2rem;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 704px) {
+  .teamListHeader {
+    text-align: center;
+    font-size: 28px;
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .teamListHeader {
+    font-size: 20px;
+  }
+}

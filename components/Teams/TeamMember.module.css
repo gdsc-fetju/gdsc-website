@@ -1,0 +1,250 @@
+.TeamMember {
+  width: 280px;
+  height: 500px;
+  margin: 0 2rem;
+  font-family: "Google Sans", sans-serif;
+}
+
+.card {
+  position: relative;
+  width: 280px;
+  margin: 30px 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  height: 440px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.card1 {
+  position: relative;
+  width: 280px;
+  margin: 30px 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  height: 440px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: calc(-100% + 4px);
+  width: 100%;
+  height: 100%;
+  background: #4285f4;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.card1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: calc(-100% + 4px);
+  width: 100%;
+  height: 100%;
+  background: #4285f4;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.card2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: calc(-100% + 4px);
+  width: 100%;
+  height: 100%;
+  background: #e94335;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.card3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: calc(-100% + 4px);
+  width: 100%;
+  height: 100%;
+  background: #fbbc05;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.card4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: calc(-100% + 4px);
+  width: 100%;
+  height: 100%;
+  background: #34a853;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover::before {
+  bottom: 0;
+}
+
+.card div {
+  position: relative;
+  z-index: 2;
+}
+
+.cardImg {
+  width: 280px;
+  padding: 2rem;
+  transition: 0.3s;
+}
+
+.cardImg img {
+  width: 100%;
+  border: 3px solid var(--google-blue);
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.3s;
+}
+.cardImg1 img {
+  width: 100%;
+  border: 3px solid var(--google-blue);
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.3s;
+}
+.cardImg2 img {
+  width: 100%;
+  border: 3px solid var(--google-red);
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.3s;
+}
+.cardImg3 img {
+  width: 100%;
+  border: 3px solid var(--google-yellow);
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.3s;
+}
+.cardImg4 img {
+  width: 100%;
+  border: 3px solid var(--google-green);
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.card:hover .cardImg {
+  padding: 0;
+}
+
+.card:hover .cardImg img {
+  border-radius: 0;
+  border: none;
+}
+
+.cardBody {
+  padding: 1rem;
+}
+
+.cardName {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+  transition: 0.3s;
+}
+
+.cardDesignation {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.2rem;
+  color: var(--text-color);
+  transition: 0.3s;
+  line-height: 1.5;
+}
+
+.card:hover .cardDesignation,
+.card:hover .cardName {
+  color: #fff;
+}
+
+.card:hover .cardDesignation {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.527);
+}
+
+.linkList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.linkList li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--text-color);
+  padding: 8px;
+  transition: 0.3s;
+  font-size: 18px;
+  height: 34px;
+  width: 34px;
+  margin: 4px;
+  display: inline-block;
+}
+
+.card:hover .linkList li a {
+  color: #fff;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.linkList li a:hover {
+  background: #fff;
+  /* color: var(--google-blue); */
+  border-radius: 50%;
+}
+
+.linkList li a:hover svg {
+  color: var(--google-blue);
+}
+.linkList li a:hover .svgDomain1 {
+  color: var(--google-dark-blue);
+}
+.linkList li a:hover .svgDomain2 {
+  color: var(--google-dark-red);
+}
+.linkList li a:hover .svgDomain3 {
+  color: var(--google-dark-yellow);
+}
+.linkList li a:hover .svgDomain4 {
+  color: var(--google-dark-green);
+}
+
+@media (max-width: 350px) {
+  .TeamMember {
+    height: 420px;
+    width: auto;
+  }
+  .card {
+    width: 200px;
+    height: 350px;
+  }
+  .cardImg {
+    width: 200px;
+    padding: 1.2rem;
+  }
+  .cardName {
+    font-size: 20px;
+  }
+  .cardDesignation {
+    font-size: 16px;
+    color: var(--text-color);
+  }
+}
