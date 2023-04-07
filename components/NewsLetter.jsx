@@ -16,7 +16,7 @@ const NewsLetter = () => {
                 </form>
             </div >
             <div className='right'>
-                <Image src='/newsLetter.svg' alt='' height={300} width={300} className='hidden md:block ' />
+                <Image src='/newsletter.svg' alt='' height={300} width={300} className='hidden md:block ' />
             </div>
         </div >
     )
