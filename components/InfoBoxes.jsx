@@ -6,7 +6,7 @@ function Boxes() {
     <div className="p-8 grid grid-rows-3 grid-cols-1 md:grid-rows-2 md:grid-cols-2 md:w-3/4 mx-auto gap-x-6 gap-y-8 w-full font-roboto text-[#494949]">
       <div className="Box1 flex bg-green-100 justify-between items-center rounded-xl px-4">
         <div className="stats">
-          <p className="italic text-4xl font-semibold">20+</p>
+          <p className="italic text-4xl font-semibold">40+</p>
           <p className="text-2xl tracking-wider mt-2 font-thin italic">
             Events Conducted
           </p>
@@ -31,23 +31,31 @@ function Boxes() {
         </p>
         <div className="flex">
           <div className="circle rounded-lg bg-red-100 w-[40px] h-[40px] flex items-center justify-center mr-1 cursor-pointer">
+           <a href="https://www.instagram.com/gdscfetju/www.instagram.com"> 
             <Image
               src="/social/instagram.svg"
               alt="fb"
               width={30}
               height={30}
             />
+            </a>
           </div>
           <div className="circle rounded-lg bg-[#F9E0DB] w-[40px] h-[40px] flex items-center justify-center mr-1 cursor-pointer">
-            <Image
-              src="/social/twitter.svg"
-              alt="teitter"
-              width={30}
-              height={30}
-            />
+            <a href="https://twitter.com/gdscfetju">
+  <Image
+    src="/social/twitter.svg"
+    alt="twitter"
+    width={30}
+    height={30}
+  />
+</a>
+
           </div>
+
           <div className="circle rounded-lg bg-[#F9E0DB] w-[40px] h-[40px] flex items-center justify-center mr-1 cursor-pointer">
+            <a href="https://www.linkedin.com/company/gdsc-fet-ju/">
             <Image src="/social/linkedin.svg" alt="fb" width={30} height={30} />
+            </a>
           </div>
         </div>
       </div>

@@ -8,11 +8,12 @@ const Team = () => {
       <div className='hidden md:block'>
         <Image src='/team.png' alt='team' width={500} height={500} />
       </div>
-      <div className='left text-center md:text-justify md:w-1/2'>
-        <h1 className='text-3xl font-medium'>Team</h1>
-        <p className='text-lg my-3 '>A Team is as efficient as the members of its team are. This is a rundown of how explicable each individual is and how they supplement the team.</p>
-        <Link href='/Team'>
-          <button className='bg-[#4285f4] text-white py-3 px-8'>See More</button>
+     <div className='left text-center md:text-left md:w-1/2 md:ml-10'>
+        <h1 className='text-3xl font-bold mb-5'>Meet Our Team</h1>
+       
+        <p className='text-lg mb-8'>A team is as efficient as the members of its team are. This is a rundown of how capable each individual is and how they complement the team.</p>
+        <Link href='/team'>
+          <button className='bg-blue-500 hover:bg-blue-600 text-white py-3 px-8 rounded-lg shadow-md'>See More</button>
         </Link>
       </div>
 
