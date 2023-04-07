@@ -5,6 +5,14 @@
 This is the GitHub repository for the Google Developer Student Club (GDSC) website. The website is built using Next.js and Tailwind CSS, and serves as a platform for sharing information about the club's activities, events, and resources.
 
 
+## known issues 
+
+- [ ] Footer section needs improvement.
+- [ ] Font and color uniformity needs to be addressed.
+- [ ] Testimonial section responsiveness needs to be fixed.
+- [ ] Vector images need to be updated.
+
+
 
 ## :rocket: Getting Started
 
