@@ -3,6 +3,7 @@ import React from 'react'
 
 const NewsLetter = () => {
     return (
+         
         <div className=' justify-around py-8 px-3 text-center items-center  bg-[#F5F4F4] md:flex '
         >
             
@@ -21,6 +22,7 @@ const NewsLetter = () => {
                 <Image src='/newsletter.svg' alt='' height={300} width={300} className='hidden md:block ' />
             </div>
         </div >
+     
     )
 }
 
