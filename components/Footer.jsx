@@ -3,59 +3,30 @@ import React from 'react';
 
 function Footer() {
   return (
-    <section className="bg-gray-100">
-      <hr className="pb-5" />
-      {/* Footer Top */}
-      <div className="flex flex-col items-center md:items-start md:flex-row lg:px-28 md:px-10 justify-evenly">
-        {/* Footer Left */}
-        <div className="w-64">
-          <h3 className="text-xl uppercase font-semibold">About</h3>
-          <p className="py-5 text-gray-500">
-            Fusce quis tellus nulla. Donec sodales mauris eget pellentesque
-            hendrerit. Donec molestie non urna sit amet aliquet. Curabitur sit
-            amet est nec nulla varius fermentum.
-          </p>
-        </div>
-        {/* Footer Center */}
-        <div className="w-64">
-          <h3 className="text-xl uppercase font-semibold">Contact Us</h3>
-          <p className="py-5 text-gray-500">
-            <span>Call-centre: 1 (323) 938-5798</span>
-            <span>Email: info@styleixthemes.com</span>
-            <span>1840 E Garvey Avenue Street West Covina, CA 91791, U.S.</span>
-            <span>Monday - Friday: 9:00am - 9:00pm</span>
-          </p>
-        </div>
-        {/* Footer Right */}
-        <div className="w-2/3 md:w-2/3 mx-auto md:ml-5 ">
-          <h3 className="text-xl uppercase font-semibold">Newsletter</h3>
-          <div className="mt-4">
-            <input
-              type="email"
-              id="email"
-              className="outline-none  items-center md:inline-flex bg-white  p-2 md:p-3 shadow-xl w-11/12 rounded-md md:w-2/3"
-              required
-              placeholder="Enter email address"
-            ></input>
-            <label htmlFor="email" className="hidden">
-              Enter your email
-            </label>
-            <button className="text-gray-500 rounded-md p-2 md:p-3 ml-2  bg-white border-lg shadow-xl mt-3">
-              Submit
-            </button>
-            <span className="text-sm text-gray-400 mt-2 block">
-              We never spam you!
-            </span>
-          </div>
-        </div>
+    <section className=" p-10 m-10 rounded-lg  border-black border-2 text-center md:flex items-center  justify-around md:p-15">
+      {/* left column */}
+      <div className='left md:w-1/3 '>
+        <h1 className='text-3xl mb-5 text-[#DB4437] font-bold '>About Us</h1>
+        <p className='font-semibold mb-5'>GDSC FET-JU is a community based out of Jain University Department of Computer Science and Engineering. We aim to deliver the best from Google to all </p>
+        <Image src='/logo.png' alt='gdscPng' width={350} height={350} className='mx-auto mb-5 ' />
       </div>
-      {/* Footer Bottom */}
-      <div className="flex justify-center md:justify-end items-center space-x-5 p-2 bg-green-200">
-        <FooterImage imageName={'facebook'} />
-        <FooterImage imageName={'instagram'} />
-        <FooterImage imageName={'github'} />
-        <FooterImage imageName={'linkedin'} />
-        <FooterImage imageName={'twitter'} />
+
+      {/* middle col */}
+      <div className='middle md:w-1/3'>
+        <p className='text-[#0F9D58] text-3xl font-bold'>Follow Us</p>
+        <div className="links flex justify-center mb-5">
+          <FooterImage imageName={'instagram'} />
+          <FooterImage imageName={'linkedin'} />
+          <FooterImage imageName={'twitter'} />
+        </div>
+        <h1 className='text-3xl font-bold text-[#4285F4] mb-3' >Contact Us</h1>
+
+        <p className='font-semibold'>dscfetju@gmail.com</p>
+        <p className='font-semibold'>gdscfetju@gmail.com</p>
+      </div>
+      {/* right col */}
+      <div className='right md:w-1/3'>
+        <Image src='/footer.svg' alt='footer image' height={300} width={300} className='mx-auto md:w-full md:h-full' />
       </div>
     </section>
   );
@@ -65,7 +36,7 @@ function FooterImage({ imageName }) {
   return (
     <span className="">
       <Image
-        className="text-gray-500"
+        className="text-gray-500 m-2 cursor-pointer"
         src={`/social/${imageName}.svg`}
         height={25}
         width={25}

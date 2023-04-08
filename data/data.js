@@ -59,18 +59,6 @@ const data = [
       behance: "/",
     },
   },
-
-  {
-    name: 'Vidit Kharecha',
-    position: 'Creative Co-Lead',
-    image: '/profilePics/vidit.jpg',
-    links: {
-      github: "/",
-      linkedin: "/",
-      instagram: "/",
-      behance: "/",
-    },
-  },
   {
     name: 'Darshan Shetty',
     position: 'Google Cloud Facilitator',
