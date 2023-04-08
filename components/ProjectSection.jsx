@@ -2,7 +2,8 @@ import React from 'react';
 import CallMadeIcon from '@mui/icons-material/CallMade';
 function ProjectSection() {
   return (
-    <div className="bg-[url(/project_bg.svg)] p-20 flex flex-col items-center mx-auto ">
+     <div style={{border: '2px solid red', borderRadius: '25px', padding: '20px', margin:'20px', }}> 
+    <div className="bg-[url(/bac.svg)] p-20 flex flex-col items-center mx-auto ">
       <h1 className="text-xl md:text-3xl font-bold md:font-semibold font-fraunces">
         Have A Project In Mind? Let&apos;s Get Start.
       </h1>
@@ -17,6 +18,7 @@ function ProjectSection() {
   Get Started !
 </button>
 
+    </div>
     </div>
   );
 }
