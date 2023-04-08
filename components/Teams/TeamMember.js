@@ -39,7 +39,7 @@ const TeamMember = (props) => {
       <div className={`${classes.card} ${cardClassDomain}`}>
         <div>
           <div className={`${classes.cardImg} ${cardImgDomain}`}>
-            <Image src={props.image} alt={props.cardName} height={100} width={100} />
+            <Image src={props.image} alt={props.cardName} height={200} width={200} unoptimized={true} />
           </div>
           <div className={classes.cardBody}>
             <h1 className={classes.cardName}>{props.cardName}</h1>
