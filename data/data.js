@@ -59,6 +59,30 @@ const data = [
     },
   },
   {
+    name: 'Prince Gupta',
+    position: 'Social Media Lead',
+    image: '/profilePics/prince.png',
+    key: 10021,
+    domain: 2,
+    links: {
+      github: "https://github.com/pr1ncegupta",
+      linkedin: "https://www.linkedin.com/in/pr1ncegupta",
+      instagram: "https://instagram.com/pr1ncegupta",
+    }
+  },
+  {
+    name: 'Henil Dudhat',
+    position: "CyberSecurity Facilitator",
+    image: '/profilePics/henil.jpg',
+    key: 9001,
+    domain: 4,
+    links: {
+      linkedin: "linkedin.com/in/henil-dudhat",
+      github: '/',
+      instagram: '/'
+    }
+  },
+  {
     name: "Sargam Poudel",
     position: "Web Facilitator",
     image: "/profilePics/sargam.jpg",
@@ -72,7 +96,7 @@ const data = [
   },
   {
     name: "Kanish Shanmuga R",
-    position: "Backend Facilitator",
+    position: "Web Facilitator",
     image: "/profilePics/kanish.jpg",
     key: 7,
     domain: 3,
@@ -83,7 +107,7 @@ const data = [
     },
   },
   {
-    name: "Darshan Sathish Shetty ",
+    name: "Darshan Shetty ",
     position: "Blockchain Facilitator ",
     image: "/profilePics/darshan.jpg",
     key: 8,
@@ -119,7 +143,17 @@ const data = [
     },
   },
 
-
+  {
+    name: 'Rudra Singh',
+    position: 'Community Officer',
+    image: '/profilePics/rudra.png',
+    key: 102,
+    domain: 4,
+    links: {
+      linkedin: 'https://www.linkedin.com/in/rudra-pratap-singh-3864b825b',
+      instagram: 'https://www.instagram.com/rudra.singh28'
+    }
+  },
 
 
   {
@@ -144,7 +178,7 @@ const data = [
   },
   {
     name: "Tanvi Shekhar Sawant ",
-    position: "Committee member",
+    position: "Community Officer",
     image: "/profilePics/tanvi.png",
     key: 13,
     domain: 3,
@@ -156,7 +190,7 @@ const data = [
     name: "Aakash Subedi",
     position: "Community Officer",
     image: "/profilePics/subedi.jpg",
-    key: "10",
+    key: 14,
     domain: 10,
     links: {
       github: "https://github.com/spartan-readytocode",
