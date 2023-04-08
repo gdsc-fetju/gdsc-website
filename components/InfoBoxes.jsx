@@ -4,8 +4,8 @@ import React from 'react';
 function Boxes() {
   return (
     <div className="p-8 grid grid-rows-3 grid-cols-1 md:grid-rows-2 md:grid-cols-2 md:w-3/4 mx-auto gap-x-6 gap-y-8 w-full font-open-sans text-black">
-      <div className="Box1 flex bg-green-600   justify-between items-center rounded-xl px-4 " id="rightBox">
-        <div className="stats" id=''>
+      <div className="Box1 flex bg-green-600   justify-between items-center rounded-xl px-4 border border-black">
+        <div className="stats">
           <p className=" text-4xl text-white font-semibold">40+</p>
           <p className="text-2xl tracking-wider mt-2 font-medium italic">
             Events Conducted
@@ -15,8 +15,8 @@ function Boxes() {
           <Image src="/Line.png" width={107} height={139} alt="line" />
         </div>
       </div>
-      <div className="Box2 bg-yellow-400 border border-black rounded-xl grid grid-cols-1 sm:grid-cols-2 p-6 place-items-center row-span-2">
-        <p className="font-bold  text-white text-2xl md:text-4xl lg:text-5xl tracking-wide">
+     <div className="Box2 bg-yellow-400 border border-black rounded-xl grid grid-cols-1 sm:grid-cols-2 p-6 place-items-center row-span-2">
+       <p className="font-bold  text-white text-2xl md:text-4xl lg:text-5xl tracking-wide">
           Love to chat about anything
         </p>
         <Image
@@ -60,7 +60,7 @@ function Boxes() {
         </div>
       </div>
       <div className="Box1 flex bg-blue-600 justify-between items-center rounded-xl px-4 border border-black   ">
-
+   
         <div className="stats">
           <p className=" text-4xl text-white font-semibold">2000+</p>
           <p className="text-2xl tracking-wider mt-2 font-medium italic">
