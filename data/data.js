@@ -12,16 +12,16 @@ const data = [
     },
   },
   {
-    name: 'Ankit Jha',
-    position: 'Full Stack Lead',
+    name: "Ankit Jha",
+    position: "Full Stack Lead",
     key: 2,
     domain: 2,
-    image: '/profilePics/ankit.jpg',
+    image: "/profilePics/ankit.jpg",
     links: {
       github: "https://github.com/J-Ankit2002",
       linkedin: "https://www.linkedin.com/in/ankitjha121",
       instagram: "https://www.instagram.com/ankit.ts",
-    }
+    },
   },
   {
     name: "Sulabh Bashyal",
@@ -59,28 +59,28 @@ const data = [
     },
   },
   {
-    name: 'Prince Gupta',
-    position: 'Social Media Lead',
-    image: '/profilePics/prince.png',
+    name: "Prince Gupta",
+    position: "Social Media Lead",
+    image: "/profilePics/prince.png",
     key: 10021,
     domain: 2,
     links: {
       github: "https://github.com/pr1ncegupta",
       linkedin: "https://www.linkedin.com/in/pr1ncegupta",
       instagram: "https://instagram.com/pr1ncegupta",
-    }
+    },
   },
   {
-    name: 'Henil Dudhat',
+    name: "Henil Dudhat",
     position: "CyberSecurity Facilitator",
-    image: '/profilePics/henil.jpg',
+    image: "/profilePics/henil.jpg",
     key: 9001,
     domain: 4,
     links: {
       linkedin: "linkedin.com/in/henil-dudhat",
-      github: '/',
-      instagram: '/'
-    }
+      github: "/",
+      instagram: "/",
+    },
   },
   {
     name: "Sargam Poudel",
@@ -144,17 +144,16 @@ const data = [
   },
 
   {
-    name: 'Rudra Singh',
-    position: 'Community Officer',
-    image: '/profilePics/rudra.png',
+    name: "Rudra Singh",
+    position: "Community Officer",
+    image: "/profilePics/rudra.png",
     key: 102,
     domain: 4,
     links: {
-      linkedin: 'https://www.linkedin.com/in/rudra-pratap-singh-3864b825b',
-      instagram: 'https://www.instagram.com/rudra.singh28'
-    }
+      linkedin: "https://www.linkedin.com/in/rudra-pratap-singh-3864b825b",
+      instagram: "https://www.instagram.com/rudra.singh28",
+    },
   },
-
 
   {
     name: "Amritesh Praveen",
@@ -198,8 +197,5 @@ const data = [
       instagram: "https://www.instagram.com/Aakash_Subedi/",
     },
   },
-
-
-
 ];
 export const teamData = data;

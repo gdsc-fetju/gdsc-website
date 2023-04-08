@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 function Boxes() {
   return (
@@ -49,18 +49,21 @@ function Boxes() {
                 height={30}
               />
             </a>
-
           </div>
 
           <div className="circle rounded-lg bg-yellow w-[40px] h-[40px] flex items-center justify-center mr-1 cursor-pointer">
             <a href="https://www.linkedin.com/company/gdsc-fet-ju/">
-              <Image src="/social/linkedin.svg" alt="fb" width={30} height={30} />
+              <Image
+                src="/social/linkedin.svg"
+                alt="fb"
+                width={30}
+                height={30}
+              />
             </a>
           </div>
         </div>
       </div>
       <div className="Box1 flex bg-blue-600 justify-between items-center rounded-xl px-4 border border-black   ">
-
         <div className="stats">
           <p className=" text-4xl text-white font-semibold">2000+</p>
           <p className="text-2xl tracking-wider mt-2 font-medium italic">

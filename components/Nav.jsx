@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import React, { useState } from 'react';
-import NavLinks from './NavLinks';
+import Image from "next/image";
+import React, { useState } from "react";
+import NavLinks from "./NavLinks";
 
 function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -36,8 +36,8 @@ function Nav() {
         <div
           className={
             !isNavOpen
-              ? 'hidden'
-              : 'absolute w-screen h-screen top-0 left-0 z-50 flex flex-col justify-evenly items-center bg-white'
+              ? "hidden"
+              : "absolute w-screen h-screen top-0 left-0 z-50 flex flex-col justify-evenly items-center bg-white"
           }
         >
           <div
@@ -79,23 +79,25 @@ function Nav() {
 
       <div className="hidden md:flex md:justify-end lg:justify-center flex-grow">
         <div className="flex space-x-2 lg:space-x-4 ">
-          <NavLinks name={'Home'} />
-          <NavLinks name={'About Us'} />
-          <NavLinks name={'Team'} />
-          <NavLinks name={'Events'} />
-          <NavLinks name={'Contact Us'} />
+          <NavLinks name={"Home"} />
+          <NavLinks name={"About Us"} />
+          <NavLinks name={"Team"} />
+          <NavLinks name={"Events"} />
+          <NavLinks name={"Contact Us"} />
         </div>
       </div>
       {/* Header Right */}
       <div>
-      <button
-  type="button"
-  className="hidden lg:block text-white border border-black bg-gradient-to-r bg-blue-500 rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
-  onClick={() => window.location.href = "https://gdsc.community.dev/fet-jain-university-bengaluru/"}
->
-  Find Our Next Event
-</button>
-
+        <button
+          type="button"
+          className="hidden lg:block text-white border border-black bg-gradient-to-r bg-blue-500 rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
+          onClick={() =>
+            (window.location.href =
+              "https://gdsc.community.dev/fet-jain-university-bengaluru/")
+          }
+        >
+          Find Our Next Event
+        </button>
       </div>
     </header>
   );

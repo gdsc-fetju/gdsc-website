@@ -11,14 +11,14 @@ import Footer from "@/components/Footer";
 // import Footer from "../UI/Footer/Footer";
 
 function Team() {
-    return (
-        <div className={classes.Team}>
-            <Nav />
-            <ShowcaseTeam />
-            <TeamList />
-            <Footer />
-        </div>
-    );
+  return (
+    <div className={classes.Team}>
+      <Nav />
+      <ShowcaseTeam />
+      <TeamList />
+      <Footer />
+    </div>
+  );
 }
 
 export default Team;
