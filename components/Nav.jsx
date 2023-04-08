@@ -10,7 +10,7 @@ function Nav() {
       <div className="">
         <Image
           className="hidden sm:block"
-          src="/GDSC-COLOR.svg"
+          src="/logo.png"
           alt="GDSC LOGO"
           width={250}
           height={100}
