@@ -18,6 +18,7 @@ export default function Home() {
         <meta name="robots" content="index,follow" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://gdsc-website-one.vercel.app/" />
+        <meta name="google-site-verification" content="8ejDHRsgK4hPVX8eaStpyxdTQwIEF9H72phicCSwxwE" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="gdsc.png" type="image/x-icon" />
       </Head>
