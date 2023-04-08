@@ -36,7 +36,7 @@ function TestimonialCard() {
             />
           </div>
         </div>
-        <p className="italic font-light w-2/3 mt-3 text-[#525665] text-xl">
+        <p className="font-light w-2/3 mt-3 text-[#525665] text-xl">
           &quot; It is professional, considers everyone&apos;s time, can think
           about the whole problem and
           <span className="text-[#7AA3F3] font-bold">
