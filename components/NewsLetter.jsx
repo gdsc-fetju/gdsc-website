@@ -3,7 +3,9 @@ import React from 'react'
 
 const NewsLetter = () => {
     return (
-        <div className=' justify-around py-8 px-3 text-center items-center  bg-[#F5F4F4] md:flex '>
+        <div className=' justify-around py-8 px-3 text-center items-center  bg-[#F5F4F4] md:flex '
+        >
+            
             <div className="left md:w-1/2">
                 <h1 className='text-4xl my-2 font-semibold md:my-0'>Join Our Newsletter</h1>
                 <p className='mb-8 md:mt-1  md:text-right md:mr-10 italic'>latest information at your fingertips!</p>

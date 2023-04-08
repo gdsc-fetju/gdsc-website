@@ -90,7 +90,7 @@ function Nav() {
       <div>
       <button
   type="button"
-  className="hidden lg:block text-white bg-gradient-to-r bg-blue-500 rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
+  className="hidden lg:block text-white border border-black bg-gradient-to-r bg-blue-500 rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
   onClick={() => window.location.href = "https://gdsc.community.dev/fet-jain-university-bengaluru/"}
 >
   Find Our Next Event

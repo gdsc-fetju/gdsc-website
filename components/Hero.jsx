@@ -16,7 +16,7 @@ function Hero() {
 
  
      <a href=" https://linktr.ee/gdscfetju" target="_blank" rel="noopener noreferrer">
-  <button className="bg-blue-500 hover:bg-blue-600 focus:outline-none text-white px-10 py-2 rounded-lg font-semibold mt-5 shadow-md">
+   <button className="bg-blue-500 hover:bg-blue-600 focus:outline-none text-white px-10 py-2 rounded-lg font-semibold mt-5 shadow-md border border-black" style={{ boxShadow: '0 0 5px 1px rgba(255, 255, 255, 1)' }}>
     <span className="mr-2">
       <InfoOutlinedIcon />
     </span>
