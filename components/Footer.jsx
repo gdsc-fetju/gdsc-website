@@ -8,7 +8,6 @@ function Footer() {
       <div className='left md:w-1/3 '>
         <h1 className='text-3xl mb-5 text-[#DB4437] font-bold '>About Us</h1>
         <p className='font-semibold mb-5'>GDSC FET-JU is a community based out of Jain University Department of Computer Science and Engineering. We aim to deliver the best from Google to all </p>
-        <Image src='/logo.png' alt='gdscPng' width={350} height={350} className='mx-auto mb-5 ' />
       </div>
 
       {/* middle col */}
