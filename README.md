@@ -7,7 +7,7 @@ This is the GitHub repository for the Google Developer Student Club (GDSC) websi
 
 ## known issues 
 
-- [ ] Footer section needs improvement.
+- [x] Footer section needs improvement.
 - [ ] Font and color uniformity needs to be addressed.
 - [ ] Testimonial section responsiveness needs to be fixed.
 - [ ] Vector images need to be updated.
