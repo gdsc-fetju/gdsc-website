@@ -31,7 +31,7 @@ function Collabrations() {
           items={items}
           autoPlay={true}
           autoPlayInterval={1100}
-          infinite
+          
           disableButtonsControls={true}
         />
       </div>

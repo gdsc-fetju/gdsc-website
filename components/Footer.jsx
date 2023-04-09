@@ -76,7 +76,7 @@ function FooterImage({ imageName,url }) {
         alt={`${imageName} icon`}
       />
     </span>
-  ) ;
+  );
 }
 
 export default Footer;

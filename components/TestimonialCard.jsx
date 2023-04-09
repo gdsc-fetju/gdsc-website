@@ -9,6 +9,7 @@ function TestimonialCard() {
           src="/hello.png"
           width={200}
           height={200}
+          alt="helloAlt"
           className="rounded-full"
         ></Image>
       </div>
