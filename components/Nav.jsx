@@ -93,7 +93,7 @@ function Nav() {
         >
           <button
             type="button"
-            className="hidden lg:block text-white border border-google-black bg-gradient-to-r bg-google-blue hover:bg-blue-500 rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
+            className="hidden lg:block text-white border border-[color:var(--google-black)] bg-gradient-to-r bg-[color:var(--google-blue)] hover:bg-blue-500 rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
           >
             Find Our Next Event
           </button>

@@ -2,7 +2,6 @@ import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
 import Head from "next/head";
 import InfoBoxes from "@/components/InfoBoxes";
-import Testimonial from "@/components/Testimonial";
 import Team from "@/components/Team";
 import Footer from "@/components/Footer";
 import ProjectSection from "@/components/ProjectSection";
@@ -47,7 +46,7 @@ export default function Home() {
         {/* Testimonials */}
         {/* <Testimonial /> */}
         {/* Collaborations */}
-        <Collabrations />
+        {/* <Collabrations /> */}
         {/* Idea discussion */}
         <ProjectSection />
         <NewsLetter />
