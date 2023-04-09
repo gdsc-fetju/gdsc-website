@@ -10,7 +10,7 @@ function Footer() {
         <p className="font-semibold mb-5">
           GDSC FET-JU is a community based out of Jain University Department of
           Computer Science and Engineering. We aim to deliver the best from
-          Google to all
+          Google to all.
         </p>
       </div>
 
