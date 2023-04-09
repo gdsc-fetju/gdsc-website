@@ -6,7 +6,9 @@ import Team from "@/components/Team";
 import Footer from "@/components/Footer";
 import ProjectSection from "@/components/ProjectSection";
 import Collabrations from "@/components/Collabrations";
+import Testimonial from "@/components/Testimonial";
 import NewsLetter from "@/components/NewsLetter";
+
 export default function Home() {
   return (
     <>
@@ -44,9 +46,9 @@ export default function Home() {
         <Team />
         {/* Past Events */}
         {/* Testimonials */}
-        {/* <Testimonial /> */}
+        <Testimonial />
         {/* Collaborations */}
-        {/* <Collabrations /> */}
+        <Collabrations />
         {/* Idea discussion */}
         <ProjectSection />
         <NewsLetter />
