@@ -8,9 +8,11 @@ import TeamMember from "./TeamMember";
 
 //import DataFile
 import { teamData } from "../../data/data";
+import Skeleton from "react-loading-skeleton";
+
 
 const TeamList = () => {
-  const thirdYearList = teamData.map((member) => {
+  const list = teamData.map((member) => {
     return (
       <TeamMember
         key={member.id}
@@ -26,7 +28,10 @@ const TeamList = () => {
   return (
     <div className={classes.TeamList}>
       <div className={classes.section}>
-        <div className={classes.listContainer}>{thirdYearList}</div>
+
+        <div className={classes.listContainer}>{list}
+        </div>
+
       </div>
     </div>
   );

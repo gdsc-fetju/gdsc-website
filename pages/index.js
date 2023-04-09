@@ -46,7 +46,7 @@ export default function Home() {
         {/* Testimonials */}
         {/* <Testimonial /> */}
         {/* Collaborations */}
-        {/* <Collabrations /> */}
+        <Collabrations />
         {/* Idea discussion */}
         <ProjectSection />
         <NewsLetter />

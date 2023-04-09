@@ -8,16 +8,23 @@ import ShowcaseTeam from "../components/Teams/ShowcaseTeam";
 import TeamList from "../components/Teams/TeamList";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import Head from "next/head";
 // import Footer from "../UI/Footer/Footer";
 
 function Team() {
   return (
-    <div className={classes.Team}>
-      <Nav />
-      <ShowcaseTeam />
-      <TeamList />
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <title>Team</title>
+        <link rel="shortcut icon" href="gdsc.png" type="image/x-icon" />
+      </Head>
+      <div className={classes.Team}>
+        <Nav />
+        <ShowcaseTeam />
+        <TeamList />
+        <Footer />
+      </div>
+    </>
   );
 }
 
