@@ -8,14 +8,13 @@ import TeamMember from "./TeamMember";
 
 //import DataFile
 import { teamData } from "../../data/data";
-import Skeleton from "react-loading-skeleton";
 
 
 const TeamList = () => {
   const list = teamData.map((member) => {
     return (
       <TeamMember
-        key={member.id}
+        key={member.key}
         cardName={member.name}
         cardDesignation={member.position}
         image={member.image}
