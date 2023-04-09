@@ -1,9 +1,17 @@
 import Image from "next/image";
-import React from "react";
+import React,{useState,useEffect} from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
 function Collabrations() {
+
+  const [isInfinite, setIsInfinite] = useState(false)
+
+useEffect(() => {
+  setIsInfinite(true)
+}, [])
+
+
   const responsive = {
     0: { items: 1 },
     568: { items: 2 },
@@ -27,11 +35,12 @@ function Collabrations() {
       <div className="mt-12 p-4 flex items-center justify-center">
         <AliceCarousel
           disableDotsControls={true}
+          ssrSilentMode={false}
           responsive={responsive}
           items={items}
+          infinite={isInfinite}
           autoPlay={true}
           autoPlayInterval={1100}
-          
           disableButtonsControls={true}
         />
       </div>
