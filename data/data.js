@@ -2,7 +2,7 @@ const data = [
   {
     name: "Birat Datta",
     position: "Lead",
-    image: "/profilePics/birat.jpeg",
+    image: "/profilePics/birat.jpg",
     key: 1,
     domain: 1,
     links: {
@@ -49,7 +49,7 @@ const data = [
   {
     name: "Diksha Chakravarty",
     position: "Head Of Operations",
-    image: "/profilePics/diksha.jpeg",
+    image: "/profilePics/diksha.jpg",
     key: 5,
     domain: 3,
     links: {
@@ -62,7 +62,7 @@ const data = [
     name: "Prince Gupta",
     position: "Social Media Lead",
     image: "/profilePics/prince.png",
-    key: 10021,
+    key: 6,
     domain: 2,
     links: {
       github: "https://github.com/pr1ncegupta",
@@ -74,7 +74,7 @@ const data = [
     name: "Henil Dudhat",
     position: "CyberSecurity Facilitator",
     image: "/profilePics/henil.jpg",
-    key: 9001,
+    key: 7,
     domain: 4,
     links: {
       linkedin: "linkedin.com/in/henil-dudhat",
@@ -86,7 +86,7 @@ const data = [
     name: "Sargam Poudel",
     position: "Web Facilitator",
     image: "/profilePics/sargam.jpg",
-    key: 6,
+    key: 8,
     domain: 4,
     links: {
       github: "https://www.github.com/devsargam",
@@ -98,7 +98,7 @@ const data = [
     name: "Kanish Shanmuga R",
     position: "Web Facilitator",
     image: "/profilePics/kanish.jpg",
-    key: 7,
+    key: 9,
     domain: 3,
     links: {
       github: "https://github.com/kanishravikumar-2005",
@@ -110,7 +110,7 @@ const data = [
     name: "Darshan Shetty ",
     position: "Blockchain Facilitator ",
     image: "/profilePics/darshan.jpg",
-    key: 8,
+    key: 10,
     domain: 4,
     links: {
       github: "https://github.com/Darshanshetty0",
@@ -123,7 +123,7 @@ const data = [
     name: "Sai Sandeep",
     position: "Community officer",
     image: "/profilePics/sandeep.jpg",
-    key: 9,
+    key: 11,
     domain: 3,
     links: {
       github: "https://github.com/Sandeep040103",
@@ -135,7 +135,7 @@ const data = [
     name: "VASVI N JAIN",
     position: "Community Officer",
     image: "/profilePics/vasvi.jpg",
-    key: 10,
+    key: 12,
     domain: 4,
     links: {
       linkedin: "https://www.linkedin.com/in/vasvi-jain-1b0754233",
@@ -147,7 +147,7 @@ const data = [
     name: "Rudra Singh",
     position: "Community Officer",
     image: "/profilePics/rudra.png",
-    key: 102,
+    key: 13,
     domain: 4,
     links: {
       linkedin: "https://www.linkedin.com/in/rudra-pratap-singh-3864b825b",
@@ -159,7 +159,7 @@ const data = [
     name: "Amritesh Praveen",
     position: "Community Officer",
     image: "/profilePics/amritesh.jpg",
-    key: 11,
+    key: 14,
     domain: 3,
     links: {
       instagram: "https://www.instagram.com/amrit_920/",
@@ -169,7 +169,7 @@ const data = [
     name: "Abhiraj T K",
     position: "Community Officer",
     image: "/profilePics/abhi.jpg",
-    key: 12,
+    key: 15,
     domain: 4,
     links: {
       instagram: "https://www.instagram.com/abhi_blank/",
@@ -179,7 +179,7 @@ const data = [
     name: "Tanvi Shekhar Sawant ",
     position: "Community Officer",
     image: "/profilePics/tanvi.png",
-    key: 13,
+    key: 16,
     domain: 3,
     links: {
       linkedin: "https://www.linkedin.com/in/tanvi-s-sawant",
@@ -189,7 +189,7 @@ const data = [
     name: "Aakash Subedi",
     position: "Community Officer",
     image: "/profilePics/subedi.jpg",
-    key: 14,
+    key: 17,
     domain: 10,
     links: {
       github: "https://github.com/spartan-readytocode",
