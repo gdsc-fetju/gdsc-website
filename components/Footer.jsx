@@ -3,14 +3,14 @@ import React from "react";
 
 function Footer() {
   return (
-    <section className=" p-10 m-10 rounded-lg  border-google-black border-2 text-center md:flex items-center  justify-around md:p-15">
+    <section className=" p-10 m-10 rounded-3xl border-google-blue border-2 text-center md:flex items-center   justify-around md:p-15">
       {/* left column */}
       <div className="left md:w-1/3 ">
         <h1 className="text-3xl mb-5 text-google-red font-bold ">About Us</h1>
         <p className="font-semibold mb-5">
           GDSC FET-JU is a community based out of Jain University Department of
           Computer Science and Engineering. We aim to deliver the best from
-          Google to all
+          Google to all.
         </p>
       </div>
 
@@ -20,12 +20,12 @@ function Footer() {
         <div className="links flex justify-center mb-5">
           <FooterImage imageName={"instagram"} />
           <FooterImage imageName={"linkedin"} />
-          <FooterImage imageName={"twitter"} />
+          <FooterImage imageName={"twitter"} /> 
         </div>
         <h1 className="text-3xl font-bold text-google-blue mb-3">Contact Us</h1>
 
         <p className="font-semibold">dscfetju@gmail.com</p>
-        <p className="font-semibold">gdscfetju@gmail.com</p>
+        <p className="font-semibold"> support@gdscju.tech </p>
       </div>
       {/* right col */}
       <div className="right md:w-1/3">

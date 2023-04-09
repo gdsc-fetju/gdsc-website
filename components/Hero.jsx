@@ -42,7 +42,7 @@ function Hero() {
         </p>
 
         <Link
-          href=" https://linktr.ee/gdscfetju"
+          href="https://linktr.ee/gdscfetju"
           target="_blank"
           rel="noopener noreferrer"
         >

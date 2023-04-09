@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 //import Css
 import classes from "./TeamMember.module.css";
-
 //import icons
 import * as FiIcons from "react-icons/fi";
 import Image from "next/image";
+
 
 const TeamMember = (props) => {
   let cardClassDomain, cardImgDomain, svgClassDomain;
@@ -36,16 +36,23 @@ const TeamMember = (props) => {
 
   return (
     <div className={classes.TeamMember}>
+
       <div className={`${classes.card} ${cardClassDomain}`}>
         <div>
-          <div className={`${classes.cardImg} ${cardImgDomain}`}>
+          <div className={`${classes.cardImg} ${cardImgDomain}  blur-[8px]`} >
             <Image
               src={props.image}
               alt={props.cardName}
               height={200}
               width={200}
               unoptimized={true}
+              loading="lazy"
+              onLoad={(event) => {
+                event.target.parentNode.style.filter = 'none';
+              }}
             />
+
+
           </div>
           <div className={classes.cardBody}>
             <h1 className={classes.cardName}>{props.cardName}</h1>
@@ -70,7 +77,7 @@ const TeamMember = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

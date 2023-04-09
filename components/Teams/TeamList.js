@@ -9,11 +9,12 @@ import TeamMember from "./TeamMember";
 //import DataFile
 import { teamData } from "../../data/data";
 
+
 const TeamList = () => {
-  const thirdYearList = teamData.map((member) => {
+  const list = teamData.map((member) => {
     return (
       <TeamMember
-        key={member.id}
+        key={member.key}
         cardName={member.name}
         cardDesignation={member.position}
         image={member.image}
@@ -26,7 +27,10 @@ const TeamList = () => {
   return (
     <div className={classes.TeamList}>
       <div className={classes.section}>
-        <div className={classes.listContainer}>{thirdYearList}</div>
+
+        <div className={classes.listContainer}>{list}
+        </div>
+
       </div>
     </div>
   );

@@ -9,10 +9,7 @@ const ShowcaseTeam = () => {
       <div className={classes.container}>
         <h1 className={classes.teamHeader}>Meet The Team</h1>
         <p className={classes.teamInfo}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dicta
-          est consequuntur hic atque ullam non quis nisi fugiat quos. Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Explicabo eum
-          itaque nam necessitatibus, reiciendis quisquam!
+          Every member of the society has always been passionate and hard working towards their goal, creating a positive work environment. Their support and will to help each other out in every way possible is what makes GDSC FET-JU a &quot;team&quot;.
         </p>
       </div>
     </div>

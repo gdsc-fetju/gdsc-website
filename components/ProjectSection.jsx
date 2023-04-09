@@ -7,12 +7,12 @@ function ProjectSection() {
       id="projects"
       className="border-2 border-google-red rounded-2xl md:p-5 m-10"
     >
-      <div className="md:bg-[url(/projectbg.svg)] bg-center p-10 md:p-20 flex flex-col items-center mx-auto ">
+      <div className="bg-center p-10 md:p-20 flex flex-col items-center mx-auto ">
         <h1 className="text-xl md:text-3xl font-bold md:font-semibold text-google-yellow">
           Have A Project In Mind? Let&apos;s Get Started
         </h1>
         <p className="text-md mt-3 text-google-black font-mulish">
-          Are you looking for a solid partner for the project having in your
+          Are you looking for a solid partner for the project that you have in your
           mind.
         </p>
         <p className="text-md text-google-black">
@@ -24,6 +24,20 @@ function ProjectSection() {
           </button>
         </Link>
       </div>
+      <style jsx>{`
+        #projects {
+          background-image: url('/projectbg.svg');
+          background-size: cover;
+          background-position: center;
+        }
+        @media (max-width: 640px) {
+          #projects {
+            background-size: contain;
+            background-position: top;
+            background-image: none; /* hide the background image */
+          }
+        }
+      `}</style>
     </div>
   );
 }

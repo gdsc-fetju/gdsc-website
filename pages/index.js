@@ -8,25 +8,29 @@ import ProjectSection from "@/components/ProjectSection";
 import Collabrations from "@/components/Collabrations";
 import Testimonial from "@/components/Testimonial";
 import NewsLetter from "@/components/NewsLetter";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Google Developer Students Clubs - FETJU</title>
+        <title>GDSC FET JU</title>
         <meta
           name="description"
           content="At Google Developer Student Clubs FET- Jain University we as a university based community functioning with an aim to promote peer-to-peer learning with an active usage of tools and technologies offered by Google. Here in the community, we learn and further our developers skills with an intent to abide by the idea of putting knowledge to practical use."
         />
+        <meta name="robots" content="index, follow" />
+
+
+        <meta property="og:image" content="/gdsc.png" />
         <meta
           name="keywords"
-          content="gdscfetju,fetju,gdsc,Google Developer Students Clubs - FETJU"
+          content="gdscfetju,gdsc fetju, fetju, gdsc, Google Developer Students Clubs - FETJU, jain university, jain"
         />
-        <meta name="robots" content="index,follow" />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://gdsc-website-one.vercel.app/"
+          content="https://gdscju.tech/"
         />
         <meta
           name="google-site-verification"
@@ -51,7 +55,8 @@ export default function Home() {
         <Collabrations />
         {/* Idea discussion */}
         <ProjectSection />
-        <NewsLetter />
+        {/* FAQ */}
+        <FAQ />
         {/* Footer Section */}
         <Footer />
       </main>
