@@ -6,7 +6,7 @@ import Link from "next/link";
 function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
-    <header className="flex sticky top-0 z-10 bg-white items-center p-5 lg:px-5 shadow-lg">
+    <header className="flex sticky top-0 z-10 bg-white items-center sm:p-5 lg:px-5 shadow-lg">
       {/* Header Left */}
       <div>
         <Link href="/">
@@ -19,10 +19,10 @@ function Nav() {
           />
           <Image
             className="block sm:hidden"
-            src="/gdsc.png"
+            src="/newlogo.jpg"
             alt="GDSC LOGO"
-            width={50}
-            height={50}
+            width={75}
+            height={75}
           />
         </Link>
       </div>

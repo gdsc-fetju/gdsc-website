@@ -36,7 +36,7 @@ function FAQ() {
   };
 
   const styles = {
-    bgColor: "#f5f5f5",
+    bgColor: "#fff",
     arrowColor: "black",
     rowTitleColor: "#212120",
     rowContentColor: "#212121",
@@ -45,7 +45,7 @@ function FAQ() {
   };
 
   return (
-    <div className="p-10 md:p-15 bg-[#f5f5f5]">
+    <div className="p-10 md:p-15">
       <h1 className="text-3xl font-bold text-[#00479b] mb-8  text-center">
         Frequently Asked Question
       </h1>

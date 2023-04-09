@@ -44,10 +44,10 @@ export default function Home() {
         {/* Our Team */}
         <Team />
         {/* Past Events */}
-        {/* Testimonials */}
-        <Testimonial />
         {/* Collaborations */}
         <Collabrations />
+        {/* Testimonials */}
+        <Testimonial />
         {/* Idea discussion */}
         <ProjectSection />
         {/* FAQ */}
