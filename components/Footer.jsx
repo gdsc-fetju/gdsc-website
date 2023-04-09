@@ -3,26 +3,26 @@ import React from "react";
 
 function Footer() {
   return (
-    <section className=" p-10 m-10 rounded-lg  border-black border-2 text-center md:flex items-center  justify-around md:p-15">
+    <section className=" p-10 m-10 rounded-lg  border-google-black border-2 text-center md:flex items-center  justify-around md:p-15">
       {/* left column */}
       <div className="left md:w-1/3 ">
-        <h1 className="text-3xl mb-5 text-[#DB4437] font-bold ">About Us</h1>
+        <h1 className="text-3xl mb-5 text-google-red font-bold ">About Us</h1>
         <p className="font-semibold mb-5">
           GDSC FET-JU is a community based out of Jain University Department of
           Computer Science and Engineering. We aim to deliver the best from
-          Google to all{" "}
+          Google to all
         </p>
       </div>
 
       {/* middle col */}
       <div className="middle md:w-1/3">
-        <p className="text-[#0F9D58] text-3xl font-bold">Follow Us</p>
+        <p className="text-google-green text-3xl font-bold">Follow Us</p>
         <div className="links flex justify-center mb-5">
           <FooterImage imageName={"instagram"} />
           <FooterImage imageName={"linkedin"} />
           <FooterImage imageName={"twitter"} />
         </div>
-        <h1 className="text-3xl font-bold text-[#4285F4] mb-3">Contact Us</h1>
+        <h1 className="text-3xl font-bold text-google-blue mb-3">Contact Us</h1>
 
         <p className="font-semibold">dscfetju@gmail.com</p>
         <p className="font-semibold">gdscfetju@gmail.com</p>
@@ -43,7 +43,7 @@ function Footer() {
 
 function FooterImage({ imageName }) {
   return (
-    <span className="">
+    <span>
       <Image
         className="text-gray-500 m-2 cursor-pointer"
         src={`/social/${imageName}.svg`}

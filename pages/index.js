@@ -45,7 +45,7 @@ export default function Home() {
         <Team />
         {/* Past Events */}
         {/* Testimonials */}
-        <Testimonial />
+        {/* <Testimonial /> */}
         {/* Collaborations */}
         <Collabrations />
         {/* Idea discussion */}

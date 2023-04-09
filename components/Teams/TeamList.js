@@ -10,10 +10,7 @@ import TeamMember from "./TeamMember";
 import { teamData } from "../../data/data";
 
 const TeamList = () => {
-
-
   const thirdYearList = teamData.map((member) => {
-
     return (
       <TeamMember
         key={member.id}
@@ -24,7 +21,6 @@ const TeamList = () => {
         domain={member.domain}
       />
     );
-
   });
 
   return (

@@ -1,27 +1,30 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import NavLinks from "./NavLinks";
+import Link from "next/link";
 
 function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
-    <header className="flex sticky top-0 z-10 bg-white items-center p-5 lg:px-5 shadow-sm">
+    <header className="flex sticky top-0 z-10 bg-white items-center p-5 lg:px-5 shadow-lg">
       {/* Header Left */}
-      <div className="">
-        <Image
-          className="hidden sm:block"
-          src="/logo.png"
-          alt="GDSC LOGO"
-          width={250}
-          height={100}
-        />
-        <Image
-          className="block sm:hidden"
-          src="/gdsc.png"
-          alt="GDSC LOGO"
-          width={50}
-          height={50}
-        />
+      <div>
+        <Link href="/">
+          <Image
+            className="hidden sm:block"
+            src="/logo.png"
+            alt="GDSC LOGO"
+            width={250}
+            height={100}
+          />
+          <Image
+            className="block sm:hidden"
+            src="/gdsc.png"
+            alt="GDSC LOGO"
+            width={50}
+            height={50}
+          />
+        </Link>
       </div>
       {/* Header Middle */}
       <div className="flex md:hidden flex-grow justify-end">
@@ -68,10 +71,7 @@ function Nav() {
               <a href="#">Team</a>
             </li>
             <li className="border-b border-gray-400 my-8 uppercase">
-              <a href="#">Events</a>
-            </li>
-            <li className="border-b border-gray-400 my-8 uppercase">
-              <a href="#">Contact Us</a>
+              <a href="#">Projects</a>
             </li>
           </ul>
         </div>
@@ -79,25 +79,25 @@ function Nav() {
 
       <div className="hidden md:flex md:justify-end lg:justify-center flex-grow">
         <div className="flex space-x-2 lg:space-x-4 ">
-          <NavLinks name={"Home"} />
-          <NavLinks name={"About Us"} />
-          <NavLinks name={"Team"} />
-          <NavLinks name={"Events"} />
-          <NavLinks name={"Contact Us"} />
+          <NavLinks name={"Home"} redirectTo="/" />
+          <NavLinks name={"About Us"} redirectTo="#about" />
+          <NavLinks name={"Team"} redirectTo="#team" />
+          <NavLinks name={"Projects"} redirectTo="#projects" />
         </div>
       </div>
       {/* Header Right */}
       <div>
-        <button
-          type="button"
-          className="hidden lg:block text-white border border-black bg-gradient-to-r bg-blue-500 rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
-          onClick={() =>
-            (window.location.href =
-              "https://gdsc.community.dev/fet-jain-university-bengaluru/")
-          }
+        <Link
+          target="_blank"
+          href="https://gdsc.community.dev/fet-jain-university-bengaluru/#upcoming-events"
         >
-          Find Our Next Event
-        </button>
+          <button
+            type="button"
+            className="hidden lg:block text-white border border-google-black bg-gradient-to-r bg-google-blue hover:bg-blue-500 rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
+          >
+            Find Our Next Event
+          </button>
+        </Link>
       </div>
     </header>
   );
