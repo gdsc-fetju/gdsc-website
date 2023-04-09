@@ -37,6 +37,9 @@
   --heading-color: #3c4043;
   --text-color: #5f6368;
   --button-shadow-color: #b3b3b3;
+   --shadow: #43a047;
+  --scrollbarBG: #eee;
+  --thumbBG: #66bb6a;
   --border-color: #dadce0;
 }
 
@@ -45,3 +48,13 @@
    scroll-behavior: smooth;
  }
  
+::-webkit-scrollbar {
+  width: 14px;
+}
+::-webkit-scrollbar-track {
+  background: var(--google-gray-shade-2);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--google-blue);
+  box-shadow: 0 -100vh 0 100vh var(--google-yellow), 0 0 15px 5px black;
+}

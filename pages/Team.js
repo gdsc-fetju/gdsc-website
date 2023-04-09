@@ -15,10 +15,10 @@ function Team() {
   return (
     <>
       <Head>
-        <title>Team</title>
+        <title>GDSC FET JU | Team</title>
         <link rel="shortcut icon" href="gdsc.png" type="image/x-icon" />
       </Head>
-      <div className={classes.Team}>
+      <div className={`${classes.Team} `}>
         <Nav />
         <ShowcaseTeam />
         <TeamList />
