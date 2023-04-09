@@ -35,6 +35,7 @@ function ProjectSection() {
           #projects {
             background-size: contain;
             background-position: top;
+            background-image: none; /* hide the background image */
           }
         }
       `}</style>
