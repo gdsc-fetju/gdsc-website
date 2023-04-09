@@ -83,6 +83,18 @@ const data = [
     },
   },
   {
+    name: "Vinyas Leonard Lobo",
+    position: "CyberSecurity Facilitator",
+    image: "/profilePics/vinyas.jpg",
+    key: 1001,
+    domain: 4,
+    links: {
+      linkedin: "linkedin.com/in/henil-dudhat",
+      github: "/",
+      instagram: "/",
+    },
+  },
+  {
     name: "Sargam Poudel",
     position: "Web Facilitator",
     image: "/profilePics/sargam.jpg",

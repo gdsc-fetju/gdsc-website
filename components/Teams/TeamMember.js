@@ -39,7 +39,7 @@ const TeamMember = (props) => {
 
       <div className={`${classes.card} ${cardClassDomain}`}>
         <div>
-          <div className={`${classes.cardImg} ${cardImgDomain}  blur-[8px]`} >
+          <div className={`${classes.cardImg} ${cardImgDomain}  blur-[8px] `} >
             <Image
               src={props.image}
               alt={props.cardName}
