@@ -1,7 +1,26 @@
 import Image from "next/image";
 import React from "react";
+import {useRouter} from 'next/router'
+
 
 function Footer() {
+  
+
+  const FooterImageArray = [
+    {
+      type:"instagram",
+      url:"https://www.instagram.com/gdscfetju/"
+    },
+    {
+      type:"linkedin",
+      url:"https://www.linkedin.com/company/gdsc-fet-ju/"
+    },
+    {
+      type:"twitter",
+      url:"https://twitter.com/gdscfetju"
+    }
+  ]
+
   return (
     <section className=" p-10 m-10 rounded-3xl border-google-blue border-2 text-center md:flex items-center   justify-around md:p-15">
       {/* left column */}
@@ -18,9 +37,12 @@ function Footer() {
       <div className="middle md:w-1/3">
         <p className="text-google-green text-3xl font-bold">Follow Us</p>
         <div className="links flex justify-center mb-5">
-          <FooterImage imageName={"instagram"} />
-          <FooterImage imageName={"linkedin"} />
-          <FooterImage imageName={"twitter"} /> 
+          {
+            FooterImageArray?.map((item,i)=>(
+              <FooterImage key={i} imageName={item.type} url={item.url}/>
+            ))
+          }
+          
         </div>
         <h1 className="text-3xl font-bold text-google-blue mb-3">Contact Us</h1>
 
@@ -41,7 +63,8 @@ function Footer() {
   );
 }
 
-function FooterImage({ imageName }) {
+function FooterImage({ imageName,url }) {
+  const router = useRouter()
   return (
     <span>
       <Image
@@ -49,6 +72,7 @@ function FooterImage({ imageName }) {
         src={`/social/${imageName}.svg`}
         height={25}
         width={25}
+        onClick={()=>router.push(url)}
         alt={`${imageName} icon`}
       />
     </span>
