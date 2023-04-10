@@ -6,7 +6,7 @@ function TestimonialCard() {
       {/* Left Section */}
       <div>
         <Image
-          src="/hello.png"
+          src="/testimonialImages/tushar.jpg"
           width={200}
           height={200}
           alt="helloAlt"
@@ -15,11 +15,11 @@ function TestimonialCard() {
       </div>
       {/* Right Section */}
       <div className="flex flex-col md:items-start items-center">
-        <span className="text-2xl">Nikita Gandhi</span>
+        <span className="text-2xl font-semibold">Tushar Vilekar</span>
         <div className="m-3 flex gap-4">
           <div>
             <span className="my-1 text-[#4E8E70] px-3 py-1 bg-[#C3EAD7] rounded-md font-mulish">
-              Designer
+              GDSC Lead LPU
             </span>
           </div>
           <div>
@@ -29,8 +29,8 @@ function TestimonialCard() {
           </div>
         </div>
         <p className="px-5 text-justify max-w-xl">
-          "It is professional, considers everyone's time, can think about the
-          whole problem and not only in a small niche, friendly, and UI, UX.
+          &quot;The outreach efforts of GDSC FET JU have been exceptional, with the club&apos;s activities having a tangible impact on the wider community. The 2022-23 session saw a lot of active and successful collaborations with GDSC FET JU in terms of Organizers CompeteNCompose (An online hackathon on a national level) and National Organizers of GDSC WoW (Wonder of Wonders). The club has taken an active role in organizing events, workshops, and seminars, and I am confident that the club&apos;s efforts will continue to bear fruit in the years to come.
+          &quot;
         </p>
       </div>
     </section>

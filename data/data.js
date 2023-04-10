@@ -55,7 +55,7 @@ const data = [
     links: {
       github: "https://github.com/diksha-ashkid",
       linkedin: "https://www.linkedin.com/in/diksha-chakravarty-826160206/",
-      instagram: "https://instagram.com/_ashkid_?igshid=ZDdkNTZiNTM=",
+      instagram: "https://instagram.com/_ashkid_",
     },
   },
   {
@@ -80,6 +80,18 @@ const data = [
       linkedin: "linkedin.com/in/henil-dudhat",
       github: "/",
       instagram: "/",
+    },
+  },
+  {
+    name: "Vinyas Leonard Lobo",
+    position: "CyberSecurity Facilitator",
+    image: "/profilePics/vinyas.jpg",
+    key: 1001,
+    domain: 4,
+    links: {
+      linkedin: "https://www.linkedin.com/in/vinyas-leonard-lobo-905510176",
+      github: "https://github.com/LevelSeven-dotcom",
+      instagram: "https://instagram.com/le_nerd03",
     },
   },
   {
@@ -146,7 +158,7 @@ const data = [
   {
     name: "Rudra Singh",
     position: "Community Officer",
-    image: "/profilePics/rudra.png",
+    image: "/profilePics/rudra.jpg",
     key: 13,
     domain: 4,
     links: {
@@ -194,7 +206,7 @@ const data = [
     links: {
       github: "https://github.com/spartan-readytocode",
       linkedin: "https://www.linkedin.com/in/aakash-subedi-a9986625a/",
-      instagram: "https://www.instagram.com/Aakash_Subedi/",
+      instagram: "https://www.instagram.com/_aakash_subedi/",
     },
   },
 ];

@@ -9,7 +9,7 @@ function Team() {
       className="border-2 border-google-green rounded-3xl md:p-5 m-10"
     >
       <div className="mx-auto px-10 py-4">
-        <h1 className="text-5xl text-google-red font-bold text-center mb-5">
+        <h1 className="text-4xl text-google-red font-bold text-center mb-5">
           Meet Our Team
         </h1>
         <div className="md:flex items-center justify-around">
