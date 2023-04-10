@@ -4,16 +4,17 @@ import React from "react";
 function ProjectSection() {
   return (
     <div
-      id="projects"
+      id="project-container"
       className="border-2 border-google-red rounded-2xl md:p-5 m-10"
     >
+      <div id="projects" className="relative bottom-32"></div>
       <div className="bg-center p-10 md:p-20 flex flex-col items-center mx-auto ">
         <h1 className="text-xl md:text-3xl font-bold md:font-semibold text-google-yellow">
           Have A Project In Mind? Let&apos;s Get Started
         </h1>
         <p className="text-md mt-3 text-google-black font-mulish">
-          Are you looking for a solid partner for the project that you have in your
-          mind.
+          Are you looking for a solid partner for the project that you have in
+          your mind.
         </p>
         <p className="text-md text-google-black">
           Connect with us to make your work easier.
@@ -25,8 +26,8 @@ function ProjectSection() {
         </Link>
       </div>
       <style jsx>{`
-        #projects {
-          background-image: url('/projectbg.svg');
+        #project-container {
+          background-image: url("/projectbg.svg");
           background-size: cover;
           background-position: center;
         }
