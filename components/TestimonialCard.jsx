@@ -10,6 +10,7 @@ function TestimonialCard() {
           width={200}
           height={200}
           className="rounded-full"
+          alt="image"
         ></Image>
       </div>
       {/* Right Section */}
@@ -28,8 +29,8 @@ function TestimonialCard() {
           </div>
         </div>
         <p className="px-5 text-justify max-w-xl">
-          "It is professional, considers everyone's time, can think about the
-          whole problem and not only in a small niche, friendly, and UI, UX.
+          &quot;It is professional, considers everyone&apos;s time, can think about the
+          whole problem and not only in a small niche, friendly, and UI, UX.&quot;
         </p>
       </div>
     </section>
