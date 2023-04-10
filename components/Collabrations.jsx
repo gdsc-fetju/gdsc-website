@@ -16,7 +16,7 @@ useEffect(() => {
     0: { items: 1 },
     568: { items: 2 },
     1024: { items: 3 },
-  };
+  }; 
 
   const items = [
     <Image src="/logo.png" alt="gdscfetju" key="1" width={270} height={100} />,
