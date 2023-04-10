@@ -14,10 +14,10 @@ function Team() {
         </h1>
         <div className="md:flex items-center justify-around">
           <div className="hidden md:block">
-            <Image src="/team.png" alt="team" width={500} height={500} />
+            <Image src="/teamimg.png" alt="team" width={500} height={500} />
           </div>
           <div className="left text-center md:text-left md:w-1/2 md:ml-10">
-            <p className="mb-8  sm:text-lg md:text-xl lg:text-2xl text-justify">
+            <p className="mb-8 sm:text-lg md:text-xl lg:text-2xl text-justify">
               In our community, teamwork is essential for success. Working
               together allows us to pool our skills, knowledge, and resources to
               achieve common goals. When individuals come together to form a

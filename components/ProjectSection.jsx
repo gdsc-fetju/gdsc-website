@@ -19,10 +19,9 @@ function ProjectSection() {
           Connect with us to make your work easier.
         </p>
         <Link href="https://discord.gg/H94GW8APQF" target="_blank">
-        <button className="mt-4 px-6 py-3 bg-google-blue text-white text-md rounded-xl flex items-center active:ring-2  hover:bg-blue-500 transition-all ease-in-out font-mulish font-bold border-2 border-gray-500">
-  Get Started!
-</button>
- 
+          <button className="mt-4 px-6 py-3 bg-google-blue text-white text-md rounded-xl flex items-center active:ring-2  hover:bg-blue-500 transition-all ease-in-out font-mulish font-bold">
+            Get Started!
+          </button>
         </Link>
       </div>
       <style jsx>{`

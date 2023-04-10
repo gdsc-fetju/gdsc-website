@@ -5,7 +5,10 @@ import InfoBoxes from "@/components/InfoBoxes";
 import Team from "@/components/Team";
 import Footer from "@/components/Footer";
 import ProjectSection from "@/components/ProjectSection";
+import Collabrations from "@/components/Collabrations";
+import Testimonial from "@/components/Testimonial";
 import FAQ from "@/components/FAQ";
+
 export default function Home() {
   return (
     <>
@@ -17,17 +20,13 @@ export default function Home() {
         />
         <meta name="robots" content="index, follow" />
 
-
         <meta property="og:image" content="/gdsc.png" />
         <meta
           name="keywords"
           content="gdscfetju,gdsc fetju, fetju, gdsc, Google Developer Students Clubs - FETJU, jain university, jain"
         />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://gdscju.tech/"
-        />
+        <meta property="og:url" content="https://gdscju.tech/" />
         <meta
           name="google-site-verification"
           content="8ejDHRsgK4hPVX8eaStpyxdTQwIEF9H72phicCSwxwE"
@@ -45,10 +44,10 @@ export default function Home() {
         {/* Our Team */}
         <Team />
         {/* Past Events */}
-        {/* Testimonials */}
-        {/* <Testimonial /> */}
         {/* Collaborations */}
-        {/* <Collabrations /> */}
+        <Collabrations />
+        {/* Testimonials */}
+        <Testimonial />
         {/* Idea discussion */}
         <ProjectSection />
         {/* FAQ */}

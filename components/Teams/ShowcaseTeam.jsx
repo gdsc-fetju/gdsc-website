@@ -9,7 +9,7 @@ const ShowcaseTeam = () => {
       <div className={classes.container}>
         <h1 className={classes.teamHeader}>Meet The Team</h1>
         <p className={classes.teamInfo}>
-          Every member of the society has always been passionate and hard working towards their goal, creating a positive work environment. Their support and will to help each other out in every way possible is what makes GDSC FET-JU a &quot;team&quot;.
+          Every member of this club is choosen for their best of the capibilites and they are here to provide the best to the community and create a better coding friendly campus in Jain University
         </p>
       </div>
     </div>
