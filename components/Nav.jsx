@@ -62,16 +62,36 @@ function Nav() {
           </div>
           <ul className="flex flex-col items-center justify-between min-h-[250px]">
             <li className="border-b border-gray-400 my-8 uppercase">
-              <a href="#">Home</a>
+              <Link
+                onClick={() => setIsNavOpen((isNavOpen) => !isNavOpen)}
+                href="/"
+              >
+                Home
+              </Link>
             </li>
             <li className="border-b border-gray-400 my-8 uppercase">
-              <a href="#">About Us</a>
+              <Link
+                onClick={() => setIsNavOpen((isNavOpen) => !isNavOpen)}
+                href="#about"
+              >
+                About Us
+              </Link>
             </li>
             <li className="border-b border-gray-400 my-8 uppercase">
-              <a href="#">Team</a>
+              <Link
+                onClick={() => setIsNavOpen((isNavOpen) => !isNavOpen)}
+                href="#team"
+              >
+                Team
+              </Link>
             </li>
             <li className="border-b border-gray-400 my-8 uppercase">
-              <a href="#">Projects</a>
+              <Link
+                onClick={() => setIsNavOpen((isNavOpen) => !isNavOpen)}
+                href="#projects"
+              >
+                Projects
+              </Link>
             </li>
           </ul>
         </div>

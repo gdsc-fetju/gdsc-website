@@ -5,7 +5,8 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <div id="about" className="flex justify-around items-center ">
+    <div className="flex justify-around items-center ">
+      <div id="about" className="relative bottom-64"></div>
       <div className="p-10 md:p-0 md:w-1/2 w-full text-justify grid place-items-start place-content-center">
         <div className="flex justify-center md:justify-around items-center p-10">
           <Image
