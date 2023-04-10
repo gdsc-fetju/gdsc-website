@@ -29,7 +29,7 @@ function Collabrations() {
 
   return (
     <div className="p-10 mb-14 mt-4">
-      <h1 className="text-google-green font-bold text-5xl text-center">
+      <h1 className="text-google-green font-bold text-4xl text-center">
         Our Collabrations
       </h1>
       <div className="mt-12 p-4 flex items-center justify-center">

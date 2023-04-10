@@ -11,15 +11,16 @@ import TestimonialCard from "./TestimonialCard";
 export default function Testimonial() {
   return (
     <>
-      <h1 className="text-5xl text-center font-bold text-google-yellow">
+      <h1 className="text-4xl text-center font-bold text-google-yellow">
         Testimonials
       </h1>
       <div className="flex justify-center">
         <Swiper
-          modules={[Navigation, Pagination, A11y, Autoplay]}
+          modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={0}
           slidesPerView={1}
           navigation
+          draggable={false}
           pagination
           grabCursor={true}
           autoplay={{ delay: 2500 }}
