@@ -21,9 +21,9 @@ function Boxes() {
         </p>
         <Image
           className="hidden sm:block"
-          src="/Face.svg"
-          width={107}
-          height={139}
+          src="/chat.svg"
+          width={450}
+          height={450}
           alt="line"
         />
         <p className="md:hidden lg:block font-thin underline text-2xl cursor-pointer">
