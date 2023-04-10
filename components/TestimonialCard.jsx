@@ -6,10 +6,10 @@ function TestimonialCard() {
       {/* Left Section */}
       <div>
         <Image
-          src="/hello.png"
+          src="/testimonialImages/tushar.jpg"
           width={200}
           height={200}
-          className="rounded-full"
+          className="rounded-full object-center aspect-square"
           alt="image"
         ></Image>
       </div>
