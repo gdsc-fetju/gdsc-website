@@ -14,7 +14,7 @@ function Team() {
         </h1>
         <div className="md:flex items-center justify-around">
           <div className="hidden md:block">
-            <Image src="/teamimg.png" alt="team" width={500} height={500} />
+            <Image src="/team.svg" alt="team" width={500} height={500} />
           </div>
           <div className="left text-center md:text-left md:w-1/2 md:ml-10">
             <p className="mb-8 sm:text-lg md:text-xl lg:text-2xl text-justify">
@@ -23,19 +23,19 @@ function Team() {
               achieve common goals. When individuals come together to form a
               team, they can accomplish far more than they could alone. That is
               why we at
-              <span className="text-google-blue text-base sm:text-lg md:text-xl lg:text-2xl">
+              <span className="text-google-blue font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
                 {" "}
                 Google
               </span>
-              <span className="text-google-green text-base sm:text-lg md:text-xl lg:text-2xl">
+              <span className="text-google-green font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
                 {" "}
                 Developer
               </span>
-              <span className="text-google-red text-base sm:text-lg md:text-xl lg:text-2xl">
+              <span className="text-google-red font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
                 {" "}
                 Student
               </span>
-              <span className="text-google-yellow text-base sm:text-lg md:text-xl lg:text-2xl">
+              <span className="text-google-yellow font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
                 {" "}
                 Clubs
               </span>{" "}

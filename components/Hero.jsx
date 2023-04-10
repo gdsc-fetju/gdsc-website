@@ -18,19 +18,19 @@ function Hero() {
         </div>
         <p className="font-normal text-base sm:text-lg md:text-xl lg:text-2xl tracking-wide leading-7 sm:leading-8 md:leading-9">
           At
-          <span className="text-google-blue text-base sm:text-lg md:text-xl lg:text-2xl">
+          <span className="text-google-blue font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
             {" "}
             Google
           </span>
-          <span className="text-google-green text-base sm:text-lg md:text-xl lg:text-2xl">
+          <span className="text-google-green font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
             {" "}
             Developer
           </span>
-          <span className="text-google-red text-base sm:text-lg md:text-xl lg:text-2xl">
+          <span className="text-google-red font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
             {" "}
             Student
           </span>
-          <span className="text-google-yellow text-base sm:text-lg md:text-xl lg:text-2xl">
+          <span className="text-google-yellow font-semibold text-base sm:text-lg md:text-xl lg:text-2xl">
             {" "}
             Clubs{" "}
           </span>
