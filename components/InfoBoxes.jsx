@@ -12,7 +12,7 @@ function Boxes() {
           </p>
         </div>
         <div className="line py-2">
-          <Image src="/Line.png" width={107} height={139} alt="line" />
+          <Image src="/event.svg" width={150} height={150} alt="line" className="scale-150" />
         </div>
       </div>
       <div className="Box2 bg-google-yellow rounded-xl grid grid-cols-1 sm:grid-cols-2 p-6 place-items-center row-span-2 border border-google-black">
@@ -20,7 +20,7 @@ function Boxes() {
           Love to chat about anything
         </p>
         <Image
-          className="hidden sm:block"
+          className="hidden sm:block scale-125"
           src="/chat.svg"
           width={450}
           height={450}
@@ -69,7 +69,7 @@ function Boxes() {
           <p className="text-2xl tracking-wider mt-2 font-medium">Students</p>
         </div>
         <div className="line py-2">
-          <Image src="/Sparkle.png" width={107} height={139} alt="sparkle" />
+          <Image src="/students.svg" width={150} height={150} alt="student" className="scale-125" />
         </div>
       </div>
     </div>
