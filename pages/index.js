@@ -20,7 +20,7 @@ export default function Home() {
         />
         <meta name="robots" content="index, follow" />
 
-        <meta property="og:image" content="/gdsc.png" />
+        <meta property="og:image" content="/newlogo.jpg" />
         <meta
           name="keywords"
           content="gdscfetju,gdsc fetju, fetju, gdsc, Google Developer Students Clubs - FETJU, jain university, jain"
@@ -32,7 +32,7 @@ export default function Home() {
           content="8ejDHRsgK4hPVX8eaStpyxdTQwIEF9H72phicCSwxwE"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" href="gdsc.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="newlogo.ico" type="image/x-icon" />
       </Head>
       <main>
         {/* NavBar */}
