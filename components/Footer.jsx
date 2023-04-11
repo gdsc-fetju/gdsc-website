@@ -2,24 +2,23 @@ import Image from "next/image";
 import React from "react";
 
 function Footer() {
-
   const footerData = [
     {
-      imageName: 'instagram',
-      url: 'https://www.instagram.com/gdscfetju'
+      imageName: "instagram",
+      url: "https://www.instagram.com/gdscfetju",
     },
     {
-      imageName: 'linkedin',
-      url: 'https://www.linkedin.com/company/gdsc-fet-ju/'
+      imageName: "linkedin",
+      url: "https://www.linkedin.com/company/gdsc-fet-ju/",
     },
     {
-      imageName: 'twitter',
-      url: '/'
-    }
-  ]
+      imageName: "twitter",
+      url: "/",
+    },
+  ];
 
   return (
-    <section className="p-10 m-10 rounded-3xl border-google-blue border-2 text-center md:flex items-center justify-around md:p-15">
+    <section className="p-10 m-1 md:m-10 rounded-3xl border-google-blue border-2 text-center md:flex items-center justify-around md:p-15">
       {/* left column */}
       <div className="left md:w-1/3">
         <h1 className="text-3xl mb-5 text-google-red font-bold">About Us</h1>
@@ -29,8 +28,13 @@ function Footer() {
           Google to all.
         </p>
         <div className="visit-us">
-          <h1 className="text-3xl font-bold text-google-yellow mb-3">Visit Us</h1>
-          <p className="font-semibold">JAIN (Deemed-to-be-university), Faculty of Engineering and Technology</p>
+          <h1 className="text-3xl font-bold text-google-yellow mb-3">
+            Visit Us
+          </h1>
+          <p className="font-semibold">
+            JAIN (Deemed-to-be-university), Faculty of Engineering and
+            Technology
+          </p>
           <p className="font-semibold">Bengaluru, Karnataka 562112</p>
         </div>
       </div>
@@ -39,9 +43,9 @@ function Footer() {
       <div className="middle md:w-1/3">
         <p className="text-google-green text-3xl font-bold">Follow Us</p>
         <div className="links flex justify-center mb-5">
-          {
-            footerData.map((data, idx) => <FooterImage imageName={data.imageName} key={idx} url={data.url} />)
-          }
+          {footerData.map((data, idx) => (
+            <FooterImage imageName={data.imageName} key={idx} url={data.url} />
+          ))}
         </div>
         <h1 className="text-3xl font-bold text-google-blue mb-3">Contact Us</h1>
 
@@ -70,7 +74,7 @@ function FooterImage({ imageName, url }) {
         className="text-gray-500 m-2 cursor-pointer"
         src={`/social/${imageName}.svg`}
         height={25}
-        onClick={() => window.open(url, '_blank')}
+        onClick={() => window.open(url, "_blank")}
         width={25}
         alt={`${imageName} icon`}
       />

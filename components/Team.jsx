@@ -4,7 +4,7 @@ import React from "react";
 
 function Team() {
   return (
-    <div className="border-2 border-google-green rounded-3xl md:p-5 m-10">
+    <div className="border-2 border-google-green rounded-3xl md:p-5 m-1 md:m-10">
       {/* For smooth nav navigation with sticky header */}
       <div id="team" className="relative bottom-32"></div>
       <div className="mx-auto px-10 py-4">
