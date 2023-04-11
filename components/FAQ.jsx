@@ -6,7 +6,8 @@ function FAQ() {
     rows: [
       {
         title: "Who should join Google Developer Student Clubs FET-JU ?",
-        content: "All College and university students are encouraged to join Google Developer Student Clubs FET-JU.",
+        content:
+          "All College and university students are encouraged to join Google Developer Student Clubs FET-JU.",
       },
       {
         title: " What are the benefits of joining GDSC FET-JU ? ",
@@ -16,11 +17,17 @@ function FAQ() {
 
       {
         title: "Do I have to pay for joining this club?",
-        content: <p>No, It is free for everyone and you can always join <span className="font-bold">free of cost.</span></p>,
+        content: (
+          <p>
+            No, It is free for everyone and you can always join{" "}
+            <span className="font-bold">free of cost.</span>
+          </p>
+        ),
       },
       {
         title: `Do I need to have programming experience to join ? `,
-        content: "No programming experience is necessary to join GDSC FET-JU! We provide a supportive community and resources to help you learn and grow."
+        content:
+          "No programming experience is necessary to join GDSC FET-JU! We provide a supportive community and resources to help you learn and grow.",
       },
       {
         title: "How is GDSC different from other clubs in the campus? ",
@@ -44,7 +51,7 @@ function FAQ() {
   };
 
   return (
-    <div className="p-10 md:p-15">
+    <div className="px-1 py-5 md:p-15">
       <h1 className="text-4xl font-bold text-[#00479b] mb-8  text-center">
         Frequently Asked Question
       </h1>

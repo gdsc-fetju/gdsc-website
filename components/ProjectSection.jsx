@@ -5,7 +5,7 @@ function ProjectSection() {
   return (
     <div
       id="project-container"
-      className="border-2 border-google-red rounded-2xl md:p-5 m-10"
+      className="border-2 border-google-red rounded-2xl md:p-5 m-1 md:m-10"
     >
       <div id="projects" className="relative bottom-32"></div>
       <div className="bg-center p-10 md:p-20 flex flex-col items-center mx-auto ">
