@@ -188,16 +188,6 @@ const data = [
     },
   },
   {
-    name: "Tanvi Shekhar Sawant ",
-    position: "Community Officer",
-    image: "/profilePics/tanvi.png",
-    key: 16,
-    domain: 3,
-    links: {
-      linkedin: "https://www.linkedin.com/in/tanvi-s-sawant",
-    },
-  },
-  {
     name: "Aakash Subedi",
     position: "Community Officer",
     image: "/profilePics/subedi.jpg",
@@ -207,6 +197,42 @@ const data = [
       github: "https://github.com/spartan-readytocode",
       linkedin: "https://www.linkedin.com/in/aakash-subedi-a9986625a/",
       instagram: "https://www.instagram.com/_aakash_subedi/",
+    },
+  },
+
+  {
+    name: "Karan Singh",
+    position: 'Community Officer',
+    image: "/profilePics/karan.jpg",
+    key: 17,
+    domain: 4,
+    links: {
+      instagram: 'https://www.instagram.com/18._.karan._.bhayal',
+      linkedin: ''
+    }
+  },
+  {
+    name: "R Darshan Pawar",
+    position: 'Community Officer',
+    image: "/profilePics/rdarshan.jpeg",
+    key: 20,
+    domain: 3,
+    links: {
+      instagram: 'https://www.instagram.com/mr.p_a_w_a_r',
+      linkedin: 'https://www.linkedin.com/in/darshan-pawar-b45199236'
+    }
+
+  },
+
+  {
+    name: "Tanvi Shekhar Sawant ",
+    position: "Community Officer",
+    image: "/profilePics/tanvi.png",
+    key: 16,
+    domain: 3,
+    links: {
+      linkedin: "https://www.linkedin.com/in/tanvi-s-sawant",
+      github: 'https://github.com/Karanbhayal'
     },
   },
 ];
