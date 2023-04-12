@@ -50,7 +50,7 @@ function Footer() {
         <h1 className="text-3xl font-bold text-google-blue mb-3">Contact Us</h1>
 
         <p className="font-semibold">dscfetju@gmail.com</p>
-        <p className="font-semibold">support@gdscju.tech</p>
+        <p className="font-semibold">support@gdscfetju.co</p>
       </div>
 
       {/* right col */}
