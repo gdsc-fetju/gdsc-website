@@ -27,7 +27,7 @@ function Boxes() {
           alt="line"
         />
         <p className="md:hidden lg:block font-thin underline text-2xl cursor-pointer">
-          <a href="mailto:support@gdscju.tech">support@gdscju.tech</a>
+          <a href="mailto:support@gdscju.tech">support@gdscfetju.co</a>
         </p>
         <div className="flex">
           <div className="circle rounded-lg [40px] h-[40px] flex items-center justify-center mr-1 cursor-pointer">
