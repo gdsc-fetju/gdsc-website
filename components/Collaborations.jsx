@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
-function Collabrations() {
+function Collaborations() {
 
   const [isInfinite, setIsInfinite] = useState(false);
 
@@ -48,4 +48,4 @@ function Collabrations() {
   );
 }
 
-export default Collabrations;
+export default Collaborations;
