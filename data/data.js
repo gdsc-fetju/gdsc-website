@@ -37,7 +37,7 @@ const data = [
   },
   {
     name: "Henil Dudhat",
-    position: "Technology Lead",
+    position: "Tech Lead",
     image: "/profilePics/henil.jpg",
     key: 3,
     domain: 3,
@@ -92,8 +92,8 @@ const data = [
     key: 7,
     domain: 4,
     links: {
-      github: GITHUB + "saileja-sahu-203898223",
-      linkedin: LINKEDIN + "shailejasahu",
+      github: GITHUB + "shailejasahu",
+      linkedin: LINKEDIN +"saileja-sahu-203898223",
       instagram: INSTAGRAM + "shaileja_sahu/",
     },
   },
