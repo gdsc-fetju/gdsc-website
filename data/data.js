@@ -1,238 +1,233 @@
+/* 
+Here "key" refers to the unique id given to each member
+and "domain" represents the background of each profile card where 
+1 - Blue
+2 - Red
+3 - Yellow
+4 - Green
+we have also created a constant for each social media base handle i.e github, linkedin, instagram
+*/
+
+import { GITHUB, LINKEDIN, INSTAGRAM } from "../constants/constants";
+
 const data = [
   {
-    name: "Birat Datta",
-    position: "Lead",
-    image: "/profilePics/birat.jpg",
-    key: 1,
-    domain: 1,
-    links: {
-      github: "https://github.com/biratdatta",
-      linkedin: "https://www.linkedin.com/in/biratdatta/",
-      instagram: "https://www.instagram.com/birat_datta/",
-    },
-  },
-  {
-    name: "Ankit Jha",
-    position: "Full Stack Lead",
-    key: 2,
-    domain: 2,
-    image: "/profilePics/ankit.jpg",
-    links: {
-      github: "https://github.com/J-Ankit2002",
-      linkedin: "https://www.linkedin.com/in/ankitjha121",
-      instagram: "https://www.instagram.com/ankit.ts",
-    },
-  },
-  {
-    name: "Sulabh Bashyal",
-    position: "Outreach Lead",
-    image: "/profilePics/sulabh.jpg",
-    key: 3,
-    domain: 3,
-    links: {
-      linkedin: "https://www.linkedin.com/in/sulabh-bashyal-1b1b731b6/",
-      instagram: "https://www.instagram.com/sulabh.bashyal/",
-    },
-  },
-  {
-    name: "Aakash Rajaraman",
-    position: "Projects Lead",
-    image: "/profilePics/rajaraman.jpg",
-    key: 4,
-    domain: 4,
-    links: {
-      github: "https://github.com/aakashrajaraman",
-      linkedin: "https://www.linkedin.com/in/aakash-rajaraman/",
-      instagram: "https://www.instagram.com/aakashrajaraman/",
-    },
-  },
-  {
-    name: "Diksha Chakravarty",
-    position: "Head Of Operations",
-    image: "/profilePics/diksha.jpg",
-    key: 5,
-    domain: 3,
-    links: {
-      github: "https://github.com/diksha-ashkid",
-      linkedin: "https://www.linkedin.com/in/diksha-chakravarty-826160206/",
-      instagram: "https://instagram.com/_ashkid_",
-    },
-  },
-  {
     name: "Prince Gupta",
-    position: "Social Media Lead",
+    position: "Lead",
     image: "/profilePics/prince.png",
-    key: 6,
+    key: 1,
     domain: 2,
     links: {
-      github: "https://github.com/pr1ncegupta",
-      linkedin: "https://www.linkedin.com/in/pr1ncegupta",
-      instagram: "https://instagram.com/pr1ncegupta",
-    },
-  },
-  {
-    name: "Henil Dudhat",
-    position: "CyberSecurity Facilitator",
-    image: "/profilePics/henil.jpg",
-    key: 7,
-    domain: 4,
-    links: {
-      linkedin: "linkedin.com/in/henil-dudhat",
-      github: "/",
-      instagram: "/",
-    },
-  },
-  {
-    name: "Vinyas Leonard Lobo",
-    position: "CyberSecurity Facilitator",
-    image: "/profilePics/vinyas.jpg",
-    key: 1001,
-    domain: 4,
-    links: {
-      linkedin: "https://www.linkedin.com/in/vinyas-leonard-lobo-905510176",
-      github: "https://github.com/LevelSeven-dotcom",
-      instagram: "https://instagram.com/le_nerd03",
+      github: GITHUB + "pr1ncegupta",
+      linkedin: LINKEDIN + "pr1ncegupta",
+      instagram: INSTAGRAM + "pr1ncegupta",
     },
   },
   {
     name: "Sargam Poudel",
-    position: "Web Facilitator",
+    position: "Co Lead",
+    key: 2,
+    domain: 1,
     image: "/profilePics/sargam.jpg",
+    links: {
+      github: GITHUB + "devsargam",
+      linkedin: LINKEDIN + "sargam-poudel-b85954255/",
+      instagram: INSTAGRAM + "sargam.ts/",
+    },
+  },
+  {
+    name: "Henil Dudhat",
+    position: "Tech Lead",
+    image: "/profilePics/henil.jpg",
+    key: 3,
+    domain: 3,
+    links: {
+      github: GITHUB + "Henil677",
+      linkedin: LINKEDIN + "henil-dudhat",
+    },
+  },
+  {
+    name: "Sulabh Bashyal",
+    position: "Operations Lead",
+    image: "/profilePics/sulabh.jpg",
+    key: 4,
+    domain: 4,
+    links: {
+      github: GITHUB + "Sulabhbashyal",
+      linkedin: LINKEDIN + "sulabh-bashyal-1b1b731b6/",
+      instagram: INSTAGRAM + "sulabh.bashyal/",
+    },
+  },
+  {
+    // Photo Change remaining
+    name: "Akansha Shetty",
+    position: "Outreach Lead",
+    image: "/profilePics/akansha.jpg",
+    key: 5,
+    domain: 3,
+    links: {
+      github: GITHUB + "Akansha-S1",
+      linkedin: LINKEDIN + "akansha-shwwwetty-b35a1b253",
+      instagram: INSTAGRAM + "akss._.s",
+    },
+  },
+  {
+    // photo change remaining
+    name: "Dr. N Suresh Kumar",
+    position: "Faculty Advisor",
+    image: "/profilePics/dr_suresh.jpg",
+    key: 6,
+    domain: 2,
+    links: {
+      github: GITHUB + "sureshkumar0707",
+      linkedin: LINKEDIN + "sureshkumar0707",
+      instagram: INSTAGRAM + "iconsureshkumar",
+    },
+  },
+  {
+    // photo change remaining
+    name: "Shaileja Sahu",
+    position: "Content Writer",
+    image: "/profilePics/shaileja.jpg",
+    key: 7,
+    domain: 4,
+    links: {
+      github: GITHUB + "shailejasahu",
+      linkedin: LINKEDIN +"saileja-sahu-203898223",
+      instagram: INSTAGRAM + "shaileja_sahu/",
+    },
+  },
+  {
+    // photo change remaining
+    name: "Chandana Ashritha",
+    position: "Content Writer",
+    image: "/profilePics/ashritha.png",
     key: 8,
-    domain: 4,
+    domain: 3,
     links: {
-      github: "https://www.github.com/devsargam",
-      linkedin: "https://www.linkedin.com/in/sargam-poudel-b85954255/",
-      instagram: "https://www.instagram.com/sargam.ts/",
+      github: GITHUB + "Ashritaneerati",
+      linkedin: LINKEDIN + "ashritha-neerati-181882257",
+      instagram: INSTAGRAM + "ashritha_neerati",
     },
   },
   {
-    name: "Kanish Shanmuga R",
-    position: "Web Facilitator",
-    image: "/profilePics/kanish.jpg",
+    // photo change remaining
+    name: "Yohanes Getinet Nuriye",
+    position: "Android Facilitator ",
+    image: "/profilePics/yohanes.jpg",
     key: 9,
-    domain: 3,
+    domain: 2,
     links: {
-      github: "https://github.com/kanishravikumar-2005",
-      linkedin: "https://www.linkedin.com/in/kanish-ravikumar/",
-      instagram: "https://www.instagram.com/kanish_ravikumar_/",
+      github: GITHUB + "YohanesGetinet1",
+      linkedin: LINKEDIN + "yohanesgetinet",
+      instagram: INSTAGRAM + "yohanesgetinet/",
     },
   },
   {
-    name: "Darshan Shetty ",
-    position: "Blockchain Facilitator ",
-    image: "/profilePics/darshan.jpg",
+    // photo change remaining
+    name: "Raj Kasaudhan",
+    position: "Frontend Facilitator",
+    image: "/profilePics/raj_kasaudhan.png",
     key: 10,
-    domain: 4,
+    domain: 1,
     links: {
-      github: "https://github.com/Darshanshetty0",
-      linkedin: "https://www.linkedin.com/in/darshan-sathish-shetty-649bb226/",
-      instagram: "https://www.instagram.com/darshan__shetty/",
+      github: GITHUB + "rajksd01",
+      linkedin: LINKEDIN + "raj-kasaudhan",
+      instagram: INSTAGRAM + "rajksd.dev/",
     },
   },
-
   {
-    name: "Sai Sandeep",
-    position: "Community officer",
-    image: "/profilePics/sandeep.jpg",
+    // photo change remaining
+    name: "Subigya Subedi",
+    position: "Frontend Facilitator",
+    image: "/profilePics/subigya.jpg",
     key: 11,
-    domain: 3,
+    domain: 2,
     links: {
-      github: "https://github.com/Sandeep040103",
-      linkedin: "https://www.linkedin.com/in/sai-venkata-sandeep-6611171a0/",
-      instagram: "https://www.instagram.com/sandeep_0401/",
+      github: GITHUB + "subigya-js",
+      linkedin: LINKEDIN + "subigya-js/",
+      instagram: INSTAGRAM + "subedi.js/",
     },
   },
   {
-    name: "VASVI N JAIN",
-    position: "Community Officer",
-    image: "/profilePics/vasvi.jpg",
+    // photo change remaining
+    name: "Rahul Raj Yadav ",
+    position: "Backend Facilitator ",
+    image: "/profilePics/Rahul.jpg",
     key: 12,
     domain: 4,
     links: {
-      linkedin: "https://www.linkedin.com/in/vasvi-jain-1b0754233",
-      instagram: "https://www.instagram.com/sonij_12/",
+      github: GITHUB + "Ryrahul",
+      linkedin: LINKEDIN + "rahul-raj-yadav-03b06b258/",
+      instagram: INSTAGRAM + "ry_rahul_ydv/",
     },
   },
 
   {
-    name: "Rudra Singh",
-    position: "Community Officer",
-    image: "/profilePics/rudra.jpg",
+    // photo change remaining
+    name: "Dipendra  Bhatta",
+    position: "Backend Facilitator",
+    image: "/profilePics/dipendra.jpg",
     key: 13,
-    domain: 4,
-    links: {
-      linkedin: "https://www.linkedin.com/in/rudra-pratap-singh-3864b825b",
-      instagram: "https://www.instagram.com/rudra.singh28",
-    },
-  },
-
-  {
-    name: "Amritesh Praveen",
-    position: "Community Officer",
-    image: "/profilePics/amritesh.jpg",
-    key: 14,
     domain: 3,
     links: {
-      instagram: "https://www.instagram.com/amrit_920/",
+      github: GITHUB + "dipenbhat557",
+      linkedin: LINKEDIN + "dipendra-bhatta-38ba32259",
+      instagram: INSTAGRAM + "bhattadipen557",
     },
   },
+
   {
-    name: "Abhiraj T K",
-    position: "Community Officer",
-    image: "/profilePics/abhi.jpg",
-    key: 15,
+    // photo change remaining
+    name: "Sarvesh TS",
+    position: "Cyber Security Facilitator",
+    image: "/profilePics/sarveshTS.jpg",
+    key: 14,
     domain: 4,
     links: {
-      instagram: "https://www.instagram.com/abhi_blank/",
+      github: GITHUB + "Thanatos2k4",
+      linkedin: LINKEDIN + "sarvesh-t-s-78472324b",
+      instagram: INSTAGRAM + "_.sarveshts._/",
+    },
+  },
+
+  {
+    // photo change remaining
+    name: "Aman Kundu",
+    position: "Video Editor",
+    image: "/profilePics/aman.jpg",
+    key: 15,
+    domain: 2,
+    links: {
+      github: GITHUB + "Rony-04",
+      linkedin: LINKEDIN + "amankundu2004/",
+      instagram: INSTAGRAM + "kundu_rony04/",
     },
   },
   {
-    name: "Aakash Subedi",
-    position: "Community Officer",
-    image: "/profilePics/subedi.jpg",
+    // photo change remaining
+    name: "Kabillan T A",
+    position: "Graphic Designer",
+    image: "/profilePics/Kabillan.jpeg",
+    key: 16,
+    domain: 4,
+    links: {
+      github: GITHUB + "kabillan19",
+      linkedin: LINKEDIN + "kabillan",
+      instagram: INSTAGRAM + "kabillan.ta/",
+    },
+  },
+  {
+    // photo change remaining
+    name: "Gunjit Sinha",
+    position: "Cloud Facilitator",
+    image: "/profilePics/Gunjit-Sinha.jpg",
     key: 17,
     domain: 10,
     links: {
-      github: "https://github.com/spartan-readytocode",
-      linkedin: "https://www.linkedin.com/in/aakash-subedi-a9986625a/",
-      instagram: "https://www.instagram.com/_aakash_subedi/",
-    },
-  },
-
-  {
-    name: "Karan Singh",
-    position: 'Community Officer',
-    image: "/profilePics/karan.jpg",
-    key: 17,
-    domain: 4,
-    links: {
-      instagram: 'https://www.instagram.com/18._.karan._.bhayal',
-      linkedin: ''
-    }
-  },
-  {
-    name: "R Darshan Pawar",
-    position: 'Community Officer',
-    image: "/profilePics/rdarshan.jpeg",
-    key: 20,
-    domain: 3,
-    links: {
-      instagram: 'https://www.instagram.com/mr.p_a_w_a_r',
-      linkedin: 'https://www.linkedin.com/in/darshan-pawar-b45199236'
-    }
-
-  },
-
-  {
-    name: "Tanvi Shekhar Sawant ",
-    position: "Community Officer",
-    image: "/profilePics/tanvi.png",
-    key: 16,
-    domain: 3,
-    links: {
-      linkedin: "https://www.linkedin.com/in/tanvi-s-sawant",
-      github: 'https://github.com/Karanbhayal'
+      github: GITHUB + "gunjitsinha",
+      linkedin: LINKEDIN + "gunjit-sinha-412735216",
+      instagram: INSTAGRAM + "gunjitsinha/",
     },
   },
 ];
