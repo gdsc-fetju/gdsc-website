@@ -153,7 +153,7 @@ const data = [
     // photo change remaining
     name: "Rahul Raj Yadav ",
     position: "Backend Facilitator ",
-    image: "/profilePics/Rahul.jpg",
+    image: "/profilePics/rahul.jpg",
     key: 12,
     domain: 4,
     links: {
