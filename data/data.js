@@ -112,19 +112,6 @@ const data = [
   },
   {
     // photo change remaining
-    name: "Yohanes Getinet Nuriye",
-    position: "Android Facilitator ",
-    image: "/profilePics/yohanes.jpg",
-    key: 9,
-    domain: 2,
-    links: {
-      github: GITHUB + "YohanesGetinet1",
-      linkedin: LINKEDIN + "yohanesgetinet",
-      instagram: INSTAGRAM + "yohanesgetinet/",
-    },
-  },
-  {
-    // photo change remaining
     name: "Raj Kasaudhan",
     position: "Frontend Facilitator",
     image: "/profilePics/raj_kasaudhan.png",
