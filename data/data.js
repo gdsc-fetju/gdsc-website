@@ -59,7 +59,6 @@ const data = [
     },
   },
   {
-    // Photo Change remaining
     name: "Akansha Shetty",
     position: "Outreach Lead",
     image: "/profilePics/akansha.jpg",
@@ -72,7 +71,6 @@ const data = [
     },
   },
   {
-    // photo change remaining
     name: "Dr. N Suresh Kumar",
     position: "Faculty Advisor",
     image: "/profilePics/dr_suresh.jpg",
@@ -85,46 +83,6 @@ const data = [
     },
   },
   {
-    // photo change remaining
-    name: "Shaileja Sahu",
-    position: "Content Writer",
-    image: "/profilePics/shaileja.jpg",
-    key: 7,
-    domain: 4,
-    links: {
-      github: GITHUB + "shailejasahu",
-      linkedin: LINKEDIN +"saileja-sahu-203898223",
-      instagram: INSTAGRAM + "shaileja_sahu/",
-    },
-  },
-  {
-    // photo change remaining
-    name: "Chandana Ashritha",
-    position: "Content Writer",
-    image: "/profilePics/ashritha.png",
-    key: 8,
-    domain: 3,
-    links: {
-      github: GITHUB + "Ashritaneerati",
-      linkedin: LINKEDIN + "ashritha-neerati-181882257",
-      instagram: INSTAGRAM + "ashritha_neerati",
-    },
-  },
-  {
-    // photo change remaining
-    name: "Yohanes Getinet Nuriye",
-    position: "Android Facilitator ",
-    image: "/profilePics/yohanes.jpg",
-    key: 9,
-    domain: 2,
-    links: {
-      github: GITHUB + "YohanesGetinet1",
-      linkedin: LINKEDIN + "yohanesgetinet",
-      instagram: INSTAGRAM + "yohanesgetinet/",
-    },
-  },
-  {
-    // photo change remaining
     name: "Raj Kasaudhan",
     position: "Frontend Facilitator",
     image: "/profilePics/raj_kasaudhan.png",
@@ -137,7 +95,6 @@ const data = [
     },
   },
   {
-    // photo change remaining
     name: "Subigya Subedi",
     position: "Frontend Facilitator",
     image: "/profilePics/subigya.jpg",
@@ -150,7 +107,6 @@ const data = [
     },
   },
   {
-    // photo change remaining
     name: "Rahul Raj Yadav ",
     position: "Backend Facilitator ",
     image: "/profilePics/rahul.jpg",
@@ -164,7 +120,6 @@ const data = [
   },
 
   {
-    // photo change remaining
     name: "Dipendra  Bhatta",
     position: "Backend Facilitator",
     image: "/profilePics/dipendra.jpg",
@@ -178,7 +133,6 @@ const data = [
   },
 
   {
-    // photo change remaining
     name: "Sarvesh TS",
     position: "Cyber Security Facilitator",
     image: "/profilePics/sarveshTS.jpg",
@@ -190,9 +144,20 @@ const data = [
       instagram: INSTAGRAM + "_.sarveshts._/",
     },
   },
+  {
+    name: "Gunjit Sinha",
+    position: "Cloud Facilitator",
+    image: "/profilePics/Gunjit-Sinha.jpg",
+    key: 17,
+    domain: 10,
+    links: {
+      github: GITHUB + "gunjitsinha",
+      linkedin: LINKEDIN + "gunjit-sinha-412735216",
+      instagram: INSTAGRAM + "gunjitsinha/",
+    },
+  },
 
   {
-    // photo change remaining
     name: "Aman Kundu",
     position: "Video Editor",
     image: "/profilePics/aman.jpg",
@@ -205,7 +170,6 @@ const data = [
     },
   },
   {
-    // photo change remaining
     name: "Kabillan T A",
     position: "Graphic Designer",
     image: "/profilePics/Kabillan.jpeg",
@@ -218,16 +182,27 @@ const data = [
     },
   },
   {
-    // photo change remaining
-    name: "Gunjit Sinha",
-    position: "Cloud Facilitator",
-    image: "/profilePics/Gunjit-Sinha.jpg",
-    key: 17,
-    domain: 10,
+    name: "Shaileja Sahu",
+    position: "Content Writer",
+    image: "/profilePics/shaileja.jpg",
+    key: 7,
+    domain: 4,
     links: {
-      github: GITHUB + "gunjitsinha",
-      linkedin: LINKEDIN + "gunjit-sinha-412735216",
-      instagram: INSTAGRAM + "gunjitsinha/",
+      github: GITHUB + "shailejasahu",
+      linkedin: LINKEDIN + "saileja-sahu-203898223",
+      instagram: INSTAGRAM + "shaileja_sahu/",
+    },
+  },
+  {
+    name: "Chandana Ashritha",
+    position: "Content Writer",
+    image: "/profilePics/ashritha.png",
+    key: 8,
+    domain: 3,
+    links: {
+      github: GITHUB + "Ashritaneerati",
+      linkedin: LINKEDIN + "ashritha-neerati-181882257",
+      instagram: INSTAGRAM + "ashritha_neerati",
     },
   },
 ];
