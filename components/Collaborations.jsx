@@ -4,13 +4,11 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
 function Collaborations() {
-
   const [isInfinite, setIsInfinite] = useState(false);
 
   useEffect(() => {
-    setIsInfinite(true)
-  }, [])
-
+    setIsInfinite(true);
+  }, []);
 
   const responsive = {
     0: { items: 1 },
@@ -19,13 +17,55 @@ function Collaborations() {
   };
 
   const items = [
-    <Image src="/collabrations/cambridge.png" alt="cambridge" key="1" width={270} height={100} />,
-    <Image src="/collabrations/mait.png" alt="mait" key="2" width={270} height={100} />,
-    <Image src="/collabrations/donbosco.png" alt="donbosco" key="3" width={270} height={100} />,
-    <Image src="/collabrations/iiitb.png" alt="iiitb" key="4" width={270} height={100} />,
-    <Image src="/collabrations/lpu.png" alt="lpu" key="5" width={270} height={100} />,
-    <Image src="/collabrations/pillai.png" alt="pillai" key="6" width={270} height={100} />,
-    <Image src="/collabrations/gurunanak.png" alt="gurunanak" key="7" width={270} height={100} />,
+    <Image
+      src="/collabrations/cambridge.png"
+      alt="cambridge"
+      key="1"
+      width={270}
+      height={100}
+    />,
+    <Image
+      src="/collabrations/mait.png"
+      alt="mait"
+      key="2"
+      width={270}
+      height={100}
+    />,
+    <Image
+      src="/collabrations/donbosco.png"
+      alt="donbosco"
+      key="3"
+      width={270}
+      height={100}
+    />,
+    <Image
+      src="/collabrations/iiitb.png"
+      alt="iiitb"
+      key="4"
+      width={270}
+      height={100}
+    />,
+    <Image
+      src="/collabrations/lpu.png"
+      alt="lpu"
+      key="5"
+      width={270}
+      height={100}
+    />,
+    <Image
+      src="/collabrations/pillai.png"
+      alt="pillai"
+      key="6"
+      width={270}
+      height={100}
+    />,
+    <Image
+      src="/collabrations/gurunanak.png"
+      alt="gurunanak"
+      key="7"
+      width={270}
+      height={100}
+    />,
   ];
 
   return (
